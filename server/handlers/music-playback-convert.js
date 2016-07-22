@@ -156,40 +156,7 @@ var startTrackStreaming2 = function(req, res, path) {
     //path = 'input.mp3';
     //path = 'output.ogg';
 
-    console.log( 'path: ', path +' | '+ req.headers.range )
 
-    //if(typeof request.headers.range !== 'undefined')
-    if (!!req.headers.range)  {
-        var range       = req.headers.range;
-        var ranges      = range.replace(/bytes=/, "").split("-");
-        var rangeStart  = ranges[0];
-        var rangeEnd    = ranges[1];
-        var total       = fs.statSync(path).size;
-        
-        var start = parseInt(rangeStart, 10);
-        var end   = rangeEnd ? parseInt(rangeEnd, 10) : total - 1;
-        var chunksize = (end-start)+1;
-
-        console.log('@@@@@@@ RANGE: '+ start +' - '+ end +' | '+ chunksize +' | '+ path)
-
-    /* 
-        res.writeHead(206, {
-            'Accept-Ranges': 'bytes',
-            'Content-Range': 'bytes ' + start + '-' + end + '/' + total,
-            'Content-Length': chunksize,
-            'Content-Type': 'audio/mpeg',
-            //'Connection': 'close'
-            //'Transfer-Encoding':'chunked'
-          });
-
-        //var file = fs.createReadStream(path, {start: start, end: end});
-     */  
-
-        res.writeHead(200, {
-            //'Accept-Ranges': 'bytes',
-            //'Content-Range': 'bytes ',
-            'Content-Type': 'audio/mpeg',
-        });
 
 
         //convert2(path).pipe(res, {start: start, end: end});
@@ -248,5 +215,12 @@ var startTrackStreaming2 = function(req, res, path) {
             ffmpeg.kill();
         });
 
-    };
+
+        res.writeHead(200, {
+            //'Accept-Ranges': 'bytes',
+            //'Content-Range': 'bytes ',
+            'Content-Type': 'audio/mpeg',
+        });
+
+   
 };
