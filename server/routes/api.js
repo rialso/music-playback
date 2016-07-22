@@ -7,14 +7,9 @@ var express = require('express'),
 	echo 	 = require('./echo'); // simple echo service (ip address, date/time)
 
 
-//var tracks = require('../controllers/tracks');
 
-
-
-// para añadir registros
-//require('../iTunes_Library/itunes-library-stream');
-
-var music = require('../handlers/music-playback');
+//var music = require('../handlers/music-playback');
+var music = require('../handlers/music-playback-convert');
 
 
 
