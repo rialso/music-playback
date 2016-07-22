@@ -37,11 +37,13 @@ exports.startPlayback = function(req, res) {
 
         if (isThere(path)) {
 
-            var destination_file = "/Users/rtb/Sites/music-playback/music/The.madpix.project_-_Wish_You_Were_Here.ogg"
-            convert( path, destination_file )
+            //var destination_file = "/Users/rtb/Sites/music-playback/music/The.madpix.project_-_Wish_You_Were_Here.ogg"
+            //convert( path, destination_file )
 
 
             //startTrackStreaming( req, res, path );
+
+            startTrackStreaming2( req, res, path );
 
         } else {
             console.error('Could not find file ' + path);
@@ -148,4 +150,103 @@ function convert(source_file, destination_file) {
 
 }
 
+var startTrackStreaming2 = function(req, res, path) {
 
+    //path = '/Users/rtb/Music/___nevera/Eilen Jewell/2015 Sundown Over Ghost Town/02 Hallelujah Band.mp3'
+    //path = 'input.mp3';
+    //path = 'output.ogg';
+
+    console.log( 'path: ', path +' | '+ req.headers.range )
+
+    //if(typeof request.headers.range !== 'undefined')
+    if (!!req.headers.range)  {
+        var range       = req.headers.range;
+        var ranges      = range.replace(/bytes=/, "").split("-");
+        var rangeStart  = ranges[0];
+        var rangeEnd    = ranges[1];
+        var total       = fs.statSync(path).size;
+        
+        var start = parseInt(rangeStart, 10);
+        var end   = rangeEnd ? parseInt(rangeEnd, 10) : total - 1;
+        var chunksize = (end-start)+1;
+
+        console.log('@@@@@@@ RANGE: '+ start +' - '+ end +' | '+ chunksize +' | '+ path)
+
+    /* 
+        res.writeHead(206, {
+            'Accept-Ranges': 'bytes',
+            'Content-Range': 'bytes ' + start + '-' + end + '/' + total,
+            'Content-Length': chunksize,
+            'Content-Type': 'audio/mpeg',
+            //'Connection': 'close'
+            //'Transfer-Encoding':'chunked'
+          });
+
+        //var file = fs.createReadStream(path, {start: start, end: end});
+     */  
+
+        res.writeHead(200, {
+            //'Accept-Ranges': 'bytes',
+            //'Content-Range': 'bytes ',
+            'Content-Type': 'audio/mpeg',
+        });
+
+
+        //convert2(path).pipe(res, {start: start, end: end});
+
+        //var file = convert2(path);
+
+        //var file = fs.createReadStream(path, {start: start, end: end});
+
+        //var file = fs.createReadStream(convert2(path).stdout, {start: start, end: end});
+
+        //convert2(path).file().pipe(res)
+
+
+        var child_process = require("child_process");
+
+        var ffmpeg = child_process.spawn("./ffmpeg", [
+            //'-re',
+            '-i', path, // path
+            '-f', 'ogg', // File format
+            'pipe:1' // Output to STDOUT
+        ]);
+
+
+
+
+        ffmpeg.on('error', function(err) {
+            console.log('@@@@@@@ error', err);
+        })
+        ffmpeg.on('exit', function(err) {
+            console.log('@@@@@@@ exit', err);
+        })
+        ffmpeg.on('close', function(code) {
+            console.log('@@@@@@@ child process exited with code ' + code);
+        });
+
+        ffmpeg.stderr.on('data', function(data) { 
+
+            //console.log('.')
+
+            console.log('ffmpeg stderr: ' + data.toString());
+        })
+
+        ffmpeg.stdin.on('error', function() {});
+
+        ffmpeg.stdout.on('data', function(data) { 
+            //console.log('stdout: ' + data.toString() ); 
+
+            //var buff = new Buffer(data);
+
+        })
+
+        ffmpeg.stdout.pipe(res);
+
+
+        res.on('close', function() {
+            ffmpeg.kill();
+        });
+
+    };
+};
