@@ -9,7 +9,7 @@ var express = require('express'),
 
 
 //var music = require('../handlers/music-playback');
-var music = require('../handlers/music-playback-convert');
+var music = require('../handlers/music-playback-convert-1');
 
 
 
@@ -68,12 +68,6 @@ module.exports = (function() {
 	// api.get ('/artists', 						tracks.artists);
 	// api.get ('/artist/:artist', 				tracks.artist);
 	// api.get ('/artist/:artist/album/:album', 	tracks.ArtistAlbum);
-
-
-
-
-
-
 
 
     return api;

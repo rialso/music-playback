@@ -41,9 +41,9 @@ exports.startPlayback = function(req, res) {
             //convert( path, destination_file )
 
 
-            //startTrackStreaming( req, res, path );
+            startTrackStreaming( req, res, path );
 
-            startTrackStreaming2( req, res, path );
+            //startTrackStreaming2( req, res, path );
 
         } else {
             console.error('Could not find file ' + path);
@@ -105,10 +105,37 @@ var startTrackStreaming = function(req, res, path) {
 
     //res.end();
 
-    file.pipe(res);
-    file.on('close', function () {
-        res.end(0);
-    });
+    // file.pipe(res);
+    // file.on('close', function () {
+    //     res.end(0);
+    // });
+
+
+        var child_process = require("child_process");
+
+        var ffmpeg = child_process.spawn("./ffmpeg", [
+            //'-re',
+            '-i', file, // path
+            '-f', 'ogg', // File format
+            'pipe:1' // Output to STDOUT
+        ]);
+
+        ffmpeg.stderr.on('data', function(data) { 
+
+            //console.log('.')
+
+            console.log('ffmpeg stderr: ' + data.toString());
+        })
+
+        ffmpeg.stdout.pipe(res)
+
+
+
+        // file.pipe(res);
+        // file.on('close', function () {
+        //     res.end(0);
+        // });
+
 };
 
 function convert(source_file, destination_file) {
@@ -239,6 +266,8 @@ var startTrackStreaming2 = function(req, res, path) {
         })
 
         ffmpeg.stdout.pipe(res);
+
+
 
         
 
