@@ -8,7 +8,7 @@ exports.c_TrackById = function( id ){
 
 		var doc = {
 
-			Location : "/Users/rtb/Sites/music-playback/music/The.madpix.project_-_Wish_You_Were_Here.mp3"
+			Location : "../music/The.madpix.project_-_Wish_You_Were_Here.mp3"
 		}
 
 
