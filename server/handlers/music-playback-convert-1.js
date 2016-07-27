@@ -78,9 +78,13 @@ var startTrackStreaming = function(req, res, path) {
         var rangeStart  = ranges[0];
         var rangeEnd    = ranges[1];
         var total       = fs.statSync(path).size;
-        
+
+        console.log( '*****total: ', total +' | '+ req.headers.range )
+
         var start = parseInt(rangeStart, 10);
         var end   = rangeEnd ? parseInt(rangeEnd, 10) : total - 1;
+
+        console.log( '*****bytes ' + start + '-' + end + '/' + total )
 
         res.writeHead(206, {
             'Accept-Ranges': 'bytes',
@@ -112,213 +116,8 @@ var startTrackStreaming = function(req, res, path) {
 };
 
 
-var startTrackStreaming1 = function(req, res, path) {
 
-        //path = '/Users/rtb/Music/___nevera/Eilen Jewell/2015 Sundown Over Ghost Town/02 Hallelujah Band.mp3'
-        //path = 'input.mp3';
-        //path = 'output.ogg';
 
-        var file = fs.createReadStream(path);
-
-        console.log( 'path: ', path +' | '+ req.headers.range )
-
-
-        var child_process = require("child_process");
-
-        var ffmpeg = child_process.spawn("./ffmpeg", [
-            //'-re',
-            '-i', path, // path
-            '-f', 'ogg', // File format
-            'pipe:1' // Output to STDOUT
-        ]);
-
-        res.writeHead(200, {
-            //'Accept-Ranges': 'bytes',
-            //'Content-Range': 'bytes ',
-            'Content-Type': 'audio/mpeg',
-        });
-
-        ffmpeg.stdout.pipe(res);
-};
-
-
-var child_process = require('child_process');
-        
-var spawn = child_process.spawn;
-
-var startTrackStreaming2 = function(req, res, path) {
-
-        //path = '/Users/rtb/Music/___nevera/Eilen Jewell/2015 Sundown Over Ghost Town/02 Hallelujah Band.mp3'
-        //path = 'input.mp3';
-        //path = 'output.ogg';
-
-        console.log( 'path: ', path +' | '+ req.headers.range )
-        console.log( 'req.headers: ', req.headers  )
-
-
-        res.writeHead(200, {'Content-Type': 'audio/mpeg'});
-    
-        var ffmpeg = spawnFfmpeg(path, 
-          function (code) { // exit
-              console.log('------ child process exited with code ' + code);
-                res.end();
-          });
-          
-        ffmpeg.stdout.pipe(res)
-        
-
-        res.pipe(ffmpeg.stdin)
-  
-};
-
-
-
-
-function spawnFfmpeg(path, exitCallback) {
-    //var args = ['-i', 'pipe:0', '-f', 'mp3', '-ac', '2', '-ab', '128k', '-acodec', 'libmp3lame', 'pipe:1']
-
-    var args = [
-            //'-re',
-            '-i', path, // path
-            '-f', 'ogg', // File format
-            'pipe:1' // Output to STDOUT
-        ];
-                                            
-    var ffmpeg = spawn("./ffmpeg", args);
-                                        
-    console.log('Spawning ffmpeg ' + args.join(' '));
-
-    ffmpeg.on('exit', exitCallback);
-
-    ffmpeg.stderr.on('data', function (data) {
-        console.log('grep stderr: ' + data);
-    });
-    
-    return ffmpeg;
-}
-
-var startTrackStreaming3 = function(req, res, path) {
-
-        //path = '/Users/rtb/Music/___nevera/Eilen Jewell/2015 Sundown Over Ghost Town/02 Hallelujah Band.mp3'
-        //path = 'input.mp3';
-        //path = 'output.ogg';
-
-        var file = fs.createReadStream(path);
-
-        console.log( 'path: ', path +' | '+ req.headers.range )
-
-
-        var child_process = require("child_process");
-
-        var ffmpeg = child_process.spawn("./ffmpeg", [
-            //'-re',
-            '-i', path, // path
-            '-f', 'ogg', // File format
-            'pipe:1' // Output to STDOUT
-        ]);
-
-
-        // req.setEncoding('utf-8');
-        // req.on('data', function (data) {
-
-            
-
-
-        // });
-
-
-        //file.pipe(ffmpeg.stdin);
-
-
-        ffmpeg.stdout.pipe(res)
-
-
-        // req.on('end', function() {
-        //     //writeStream.end();
-        //     res.statusCode = 200;
-        //     //res.end(&quot;OK&quot;);
-            
-        // });  
-
-        ffmpeg.stderr.on('data', function(data) { 
-
-            //console.log('.')
-
-            //res.write(data);
-
-            //ffmpeg.stdout.pipe(res)
-
-            // ffmpeg.stdin.setEncoding('utf8');
-            // ffmpeg.stdin.write(res);
-
-            
-
-            //data.pipe(res)
-
-            console.log('ffmpeg stderr: ' + data.toString());
-        }) 
-
-        res.writeHead(200, {
-            //'Accept-Ranges': 'bytes',
-            //'Content-Range': 'bytes ',
-            'Content-Type': 'audio/mpeg',
-        }); 
-
-        //ffmpeg.stdout.pipe(res);
-};
-var startTrackStreaming3_5 = function(req, res, path) {
-
-        //path = '/Users/rtb/Music/___nevera/Eilen Jewell/2015 Sundown Over Ghost Town/02 Hallelujah Band.mp3'
-        //path = 'input.mp3';
-        //path = 'output.ogg';
-
-        var stream = fs.createReadStream(path);
-
-        console.log( 'path: ', path +' | '+ req.headers.range )
-
-
-        var child_process = require("child_process");
-
-        var ffmpeg = child_process.spawn("./ffmpeg", [ ///usr/local/bin/ffmpeg
-            //'-re',
-            //'-y',
-            '-i', 'pipe:0', // path
-            '-ss', '0',                 //starting time offset
-            //"-bufsize", "64k",
-            '-f', 'wav', // File format
-            'pipe:1' // Output to STDOUT
-        ]);
-        stream
-            .on('data', function(chunk) {
-                //console.log(chunk)
-            })
-            .on('end', function() {
-                console.log(':::::::::finished...');
-            });
-
-        stream.pipe(ffmpeg.stdin);
-
-        //ffmpeg.stderr.pipe(stream.stdout);
-
-        ffmpeg.stdout.pipe(res)
-
-        ffmpeg.stderr.on('data', function(data) { 
-
-            console.log('ffmpeg stderr: ' + data.toString());
-        }) 
-
-        res.writeHead(200, {
-            //'Accept-Ranges': 'bytes',
-            //'Content-Range': 'bytes ',
-            'Content-Type': 'audio/mpeg',
-        }); 
-
-        res.on('close', function() {
-            ffmpeg.kill();
-        });
-
-        //ffmpeg.stdout.pipe(res);
-};
 
 //http://superuser.com/questions/554962/converting-mp3-to-aac-and-outputting-to-stdout
 /*
@@ -338,66 +137,133 @@ shareimprove this answer
 
 
 var startTrackStreaming3_6 = function(req, res, path) {
+        var child_process = require("child_process");
 
         //path = '/Users/rtb/Music/___nevera/Eilen Jewell/2015 Sundown Over Ghost Town/02 Hallelujah Band.mp3'
         //path = 'input.mp3';
         //path = 'output.ogg';
 
-        var stream = fs.createReadStream(path);
+            var ffmpeg_data = child_process.spawn('./ffmpeg', [ ///usr/local/bin/ffmpeg   // "./ffmpeg"
 
-        console.log( 'path: ', path +' | '+ req.headers.range )
+                '-i', path,    // Output to STDOUT
+            ]);
+
+         console.log( '*******************************************')
+         //console.log( '*****path: ', ffmpeg_data )
+         console.log( '*******************************************')  
 
 
-        var child_process = require("child_process");
 
-        var ffmpeg = child_process.spawn('./ffmpeg', [ ///usr/local/bin/ffmpeg   // "./ffmpeg"
-            //'-re',
-            //'-y',
-            //'-i', 'pipe:0', // path
+        //var stream = fs.createReadStream(path);
+
+        console.log( '*****path: ', path +' | '+ req.headers.range )
+
+
+        
+
+        if (!!req.headers.range)  {
+            var range       = req.headers.range;
+            var ranges      = range.replace(/bytes=/, "").split("-");
+            var rangeStart  = ranges[0];
+            var rangeEnd    = ranges[1];
+            var total       = fs.statSync(path).size;
+
+            console.log( '*****total: ', total +' | '+ req.headers.range )
             
-            //"-b:v" , "64k",         // bitrate to 64k
-            //'-ss', '0',                 //starting time offset
-            //"-bufsize", "64k",
-            //'-f', 'wav', // File format
-            //'-f', 'aac', 
-            //'pipe:1' // Output to STDOUT
-            //"-" 
+            var start = parseInt(rangeStart, 10);
+            var end   = rangeEnd ? parseInt(rangeEnd, 10) : total - 1;
+
+            console.log( '*****bytes ' + start + '-' + end + '/' + total )
+
+            res.writeHead(206, {
+                'Accept-Ranges': 'bytes',
+                'Content-Range': 'bytes ' + start + '-' + end + '/' + total,
+                'Content-Length': (end - start) + 1,
+                'Content-Type': 'audio/mpeg',
+                //'Connection': 'close'
+              });
 
 
-            // '-i', path,    // Output to STDOUT
-            // '-f', 's16le', // PCM 16bits, little-endian
-            // '-ar', '44100', // Sampling rate
-            // '-ac', 2, // Stereo
-            // 'pipe:1' // Output to STDOUT
 
-            //'-i', path,    // Output to STDOUT
-            //'-acodec', 'libfdk_aac',
-            //'-f', 'mp4', // PCM 16bits, little-endian
-            //'-ar', '44100', // Sampling rate
-            //'-ac', 2, // Stereo
-            //'-f', 'wav', // File format
-
-            //'-ac', '2',
-            //'-c:a', '-acodec',
-            //'-b:a', '128k',
-            //'pipe:1' // Output to STDOUT
+            var ffmpeg = child_process.spawn('./ffmpeg', [ ///usr/local/bin/ffmpeg   // "./ffmpeg"
+                //'-re',
+                //'-y',
+                //'-i', 'pipe:0', // path
+                
+                //"-b:v" , "64k",         // bitrate to 64k
+                '-ss', '0',                 //starting time offset
+                //"-bufsize", "64k",
+                //'-f', 'wav', // File format
+                //'-f', 'aac', 
+                //'pipe:1' // Output to STDOUT
+                //"-" 
 
 
-            //'-i', 'pipe:0', // path
-            '-i', path,    // Output to STDOUT
-            '-f', 'adts',
-            //'-strict', '-2',
-            'pipe:1'
-        ]);
-        // stream
-        //     .on('data', function(chunk) {
-        //         //console.log(chunk)
-        //     })
-        //     .on('end', function() {
-        //         console.log(':::::::::finished...');
-        //     });
+                // '-i', path,    // Output to STDOUT
+                // '-f', 's16le', // PCM 16bits, little-endian
+                // '-ar', '44100', // Sampling rate
+                // '-ac', 2, // Stereo
+                // 'pipe:1' // Output to STDOUT
 
-        // stream.pipe(ffmpeg.stdin);
+                //'-i', path,    // Output to STDOUT
+                //'-acodec', 'libfdk_aac',
+                //'-f', 'mp4', // PCM 16bits, little-endian
+                //'-ar', '44100', // Sampling rate
+                //'-ac', 2, // Stereo
+                //'-f', 'wav', // File format
+
+                //'-ac', '2',
+                //'-c:a', '-acodec',
+                //'-b:a', '128k',
+                //'pipe:1' // Output to STDOUT
+
+
+                //'-i', 'pipe:0', // path
+                '-i', path,    // Output to STDOUT
+                '-ar', '44100', // Sampling rate   -- 44.1 kHz (CD), 48 kHz, 88.2 kHz, or 96 kHz.
+                '-b:a', '160k', // bitrate to 64k
+                '-f', 'adts',
+                //'-strict', '-2',
+                'pipe:1'
+            ]);
+            // stream
+            //     .on('data', function(chunk) {
+            //         //console.log(chunk)
+            //     })
+            //     .on('end', function() {
+            //         console.log(':::::::::finished...');
+            //     });
+
+            // stream.pipe(ffmpeg.stdin);
+
+
+
+            // res.writeHead(206, {
+            //     //'Accept-Ranges': 'bytes',
+            //     //'Content-Range': 'bytes ',
+            //     'Content-Type': 'audio/mpeg',
+            //     //'Content-Type': 'video/mp4',
+            // }); 
+
+
+
+        } else {
+
+            // un 200 causa crask in Firefox
+            res.writeHead(206, {
+                //'Content-Length': end,
+                'Content-Type': 'audio/mpeg',
+                //'Connection': 'close'
+              });
+
+            var ffmpeg = child_process.spawn('./ffmpeg', [ ///usr/local/bin/ffmpeg   // "./ffmpeg"
+
+                '-i', path,    // Output to STDOUT
+                '-f', 'adts',
+                //'-strict', '-2',
+                'pipe:1'
+            ]);
+        }
 
         ffmpeg.stdout.pipe(res);
 
@@ -406,12 +272,6 @@ var startTrackStreaming3_6 = function(req, res, path) {
             console.log('ffmpeg -- stderr: ' + data.toString());
         }) 
 
-        res.writeHead(200, {
-            //'Accept-Ranges': 'bytes',
-            //'Content-Range': 'bytes ',
-            'Content-Type': 'audio/mpeg',
-            //'Content-Type': 'video/mp4',
-        }); 
 
         res.on('close', function() {
             ffmpeg.kill();
