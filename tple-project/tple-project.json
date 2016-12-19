@@ -1,0 +1,28 @@
+{
+    "_id":"mpb",
+    "name":"music-playback",
+    "cover":"tple-data/music-playback/tple-project/cover.png",
+    "mirror":true,
+    "root": [
+        "/tple-data/music-playback/node_modules/i18next/i18next.min.js",
+        "/tple-data/music-playback/node_modules/mustache/mustache.min.js",
+        "/tple-data/music-playback/node_modules/farm-bodyLoads/source/farm-bodyLoads.js",
+        "/tple-data/music-playback/node_modules/farm-icons/source/farm-icons.js",
+        "/tple-data/music-playback/node_modules/farm-modal/source/farm-modal.js",
+        "/tple-data/music-playback/node_modules/farm-section/source/farm-section.css",
+        "/tple-data/music-playback/node_modules/farm-modal/source/farm-modal.css",
+        "/tple-data/music-playback/tple-data/_basics/paella-utils.js"
+    ],
+    "replaces":[
+        {
+            "key":"<!--{##fonts}-->",
+            "value":"../fonts/",
+            "attr": "g"
+        },
+        {
+            "key":"<!--{##img}-->",
+            "value":"/covers/",
+            "attr": "g"
+        }
+    ]
+}

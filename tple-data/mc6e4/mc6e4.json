@@ -1,0 +1,19 @@
+{
+    "_id": "mc6e4",
+    "global": false,
+    "compound": false,
+    "share": false,
+    "name": "icons_music_playback",
+    "box": [
+        {
+            "data": "",
+            "name": "music_playback",
+            "type": "js",
+            "compiled": "",
+            "preprocessor": "none",
+            "order": 2,
+            "_id": "01n99"
+        }
+    ],
+    "box_add": []
+}

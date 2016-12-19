@@ -1,0 +1,32 @@
+{
+	"_id":"ewp",
+	"name":"music-playback",
+    "cover":"tple-data/music-playback/tple-project/cover.png",
+    "mirror":true,
+    "root": [
+        "/tple-data/edubook-web-private/node_modules/i18next/i18next.min.js",
+        "/tple-data/edubook-web-private/node_modules/mustache/mustache.min.js",
+        "/tple-data/edubook-web-private/node_modules/mustacheResponse/source/mustacheResponse.js",
+        "/tple-data/edubook-web-private/node_modules/farm-bodyLoads/source/farm-bodyLoads.js",
+        "/tple-data/edubook-web-private/node_modules/farm-icons/source/farm-icons.js",
+        "/tple-data/edubook-web-private/node_modules/farm-modal/source/farm-modal.js",
+        "/tple-data/edubook-web-private/node_modules/farm-modal/source/farm-modal.css",
+        "/tple-data/edubook-web-private/node_modules/farm-dropdown/source/farm-dropdown.js",
+        "/tple-data/edubook-web-private/node_modules/farm-section/source/farm-section.css",
+        "/tple-data/edubook-web-private/tple-data/8xa0s/compiled/6aywc-dropdown.css",
+        "/tple-data/edubook-web-private/tple-data/_basics/paella-utils.js",
+        "/tple-data/edubook-web-private/tple-mirror/templates/iltms-enums_text.js"
+    ],
+    "replaces":[
+        {
+            "key":"<!--{##fonts}-->",
+            "value":"../fonts/",
+            "attr": "g"
+        },
+        {
+            "key":"<!--{##img}-->",
+            "value":"/u/src/img/",
+            "attr": "g"
+        }
+    ]
+}

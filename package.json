@@ -1,0 +1,43 @@
+{
+  "name": "music-playback",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^1.4.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "fs-extra": "^1.0.0",
+    "is-there": "^4.3.6",
+    "morgan": "^1.7.0",
+    "nedb": "^1.8.0",
+        "farm-ajax": "^0.0.3",
+        "farm-base": "^0.1.2",
+        "farm-bodyLoads": "^0.0.1",
+        "farm-browser": "^0.0.1",
+        "farm-icons": "^0.1.0",
+        "farm-modal": "^0.0.5",
+        "farm-router": "^0.0.4",
+        "farm-section": "^0.0.5",
+        "farm-dropdown": "^0.0.2",
+        "utilsTPL": "0.0.2",
+        "i18next": "^2.5.1",
+        "mustache": "^2.3.0",
+        "requirejs": "^2.3.2"
+  }
+}

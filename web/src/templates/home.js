@@ -1,0 +1,2 @@
+var tpl_home = "\t\n\t\t<section>\n\t\t\t<main>\n\t\t\t\t<h1>{{#t}}Hola{{/t}}</h1>\n\t\t\t\t<p>{{#t}}hola ....{{/t}}</p>\n\t\t\t\t\n\t\t\t</main>\n\t\t</section>\n\n\n\t\t";
+var tpl_folder="/Users/rtb/Sites/00/web/src/templates/";

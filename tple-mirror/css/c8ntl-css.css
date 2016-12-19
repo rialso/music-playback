@@ -1,0 +1,71 @@
+body {
+  overflow: auto;
+background:white !important;
+}
+.icons-list{
+    display: block;
+}
+
+.font-icon-list{
+    display: inline-block;
+    margin: 30px;
+}
+
+.font-icon-detail{
+    text-align: center;
+}
+
+.icons{
+
+    display: inline-block;
+    transition: color 150ms linear, background 150ms linear, font-size 150ms linear, width 150ms;
+    padding: 10px 0px;
+    width: 86px;
+
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+}
+
+.icons svg{
+    height:    50px;
+    width:     50px;
+}
+
+
+.font-icon-name{
+
+    font-size: 13px;
+    margin-top: 15px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    border: 0;
+}
+
+.icon-album__{
+    filter: drop-shadow(#000 0px 7px 0px);
+}
+
+
+
+
+#icon-arc{
+
+    vertical-align: middle;
+
+    width: 40px;
+}
+
+#icon-arc{
+    fill:green;
+    width: 40px;  
+}
+
+.icon-car .path2{ fill:green; }
+
+#icon-car .path3{ fill:red; }
+#icon-car .path1{ fill:blue; }
+
+#icon-car{ fill:blue; }
+

@@ -1,0 +1,49 @@
+@import '<!--{#1}-->1-variables';
+
+/*---------------------------------------------*/
+
+
+	.albums-container {
+		> li {
+			width: 140px;
+			height: 220px;
+		  	margin:3px;
+			
+			display: inline-block;
+			vertical-align: top;
+			/*
+		  margin: 10px 10px;
+		  background-color: $white;
+		  border: 1px solid $grey;
+		  */
+		  	color:$white;
+		  	>a{
+			  
+			  >.item__cover{
+				
+				img {
+				  width: 140px;
+				  height: 140px;
+				}
+			  }
+			  >div{
+				line-height: 20px;
+				>.album{
+				  color: $white;
+				  font-size:$small;
+				}
+				>.artist{
+				  color: $grey;
+				  font-size:$x-small;
+				  text-overflow: ellipsis;
+				  white-space: nowrap;
+				  overflow: hidden;
+				}
+			  }
+		  }
+		}
+	}
+
+
+
+

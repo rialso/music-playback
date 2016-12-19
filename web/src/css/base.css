@@ -1,0 +1,104 @@
+
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+
+
+
+.player____ {
+    background-color: #0b8dd9;
+    width: 100%;
+    /*height: 80px;*/
+    height: auto;
+    margin: 0px auto;
+    color: #fff;
+    position: relative;
+
+    /*
+    padding-top: 30px;
+    */
+
+    /*transition: all .3s*/
+}
+.playerNav{
+
+	width: 100%;
+    height: 40px;
+
+    background-color: #DDD;
+
+
+}
+
+.playerList{
+
+	width: 100%;
+	height: calc(100% - 120px);
+
+    overflow-y: auto;
+
+    /*
+    para ver el scroll en el iphone 
+    You can get native-style scrolling on an HTML element with overflow by using the following proprietary CSS property:
+    */
+
+   -webkit-overflow-scrolling: touch;
+
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+         -o-transition: all 0.3s;
+            transition: all 0.3s;    
+}
+.player .volumebox{
+	display: none;
+}
+.player .timebox{
+	float: right;
+	font-size: 12px;
+	margin-top: 25px;
+}
+.player .player-info {
+	float: left;
+}
+.player .player-info p{
+	font-size: 14px;
+	    font-weight: normal;
+
+}
+.player .player-info h3{
+	font-size: 16px;
+	    font-weight: normal;
+}
+
+
+
+
+
+
+
+.p-album {
+    background-color: grey;
+    width: 100%;
+    height: 80px;
+
+    color: #fff;
+    position: relative;
+    padding-top: 30px;
+
+    /*transition: all .3s*/
+}
+
+
+
+
+.p-track div span {
+
+	width: 20px;
+	display: inline-block; 
+	text-align: right;
+	margin-right: 10px; 
+}
+
+
+

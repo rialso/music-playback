@@ -1,0 +1,37 @@
+{
+    "_id": "uas0b",
+    "global": false,
+    "compound": false,
+    "share": false,
+    "name": "player_slider",
+    "box": [
+        {
+            "data": "",
+            "name": "player_slider",
+            "type": "html",
+            "compiled": "",
+            "preprocessor": "none",
+            "order": 0,
+            "_id": "fmel0"
+        },
+        {
+            "data": "",
+            "name": "player_slider",
+            "type": "css",
+            "compiled": "",
+            "preprocessor": "none",
+            "order": 1,
+            "_id": "6cq3z"
+        },
+        {
+            "data": "",
+            "name": "player_slider",
+            "type": "js",
+            "compiled": "",
+            "preprocessor": "none",
+            "order": 2,
+            "_id": "hdndl"
+        }
+    ],
+    "box_add": []
+}

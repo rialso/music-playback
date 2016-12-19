@@ -1,0 +1,35 @@
+{
+  "title": "Magnolia",
+  "artist": "Lee Fields & The Expressions",
+  "album": "Emma Jean",
+  "track": {
+    "no": 2,
+    "of": 11
+  },
+  "disc": {
+    "no": 1,
+    "of": 1
+  },
+  "genre": "Soul / RnB",
+  "publisher": "Truth & Soul Records",
+  "date": "2014",
+  "synched": false,
+  "duration": {
+    "raw": "00:03:20.02",
+    "seconds": 200
+  },
+  "audio": {
+    "codec": "mp3",
+    "bitrate": "320",
+    "sample_rate": 44100,
+    "stream": 0,
+    "channels": {
+      "raw": "stereo",
+      "value": 2
+    }
+  },
+  "album_artist": "",
+  "lyrics": "",
+  "cover": "covers/Lee Fields & The Expressions - Emma Jean.jpg",
+  "id": "knHmtwlug0NcKOPQ"
+}

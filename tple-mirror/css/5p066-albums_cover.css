@@ -1,0 +1,35 @@
+body {
+  background: #181818;
+  font-family: 'Roboto', sans-serif; }
+  body a {
+    color: #aaaaaa; }
+    body a:hover {
+      color: #c8c8c8; }
+
+/*---------------------------------------------*/
+.albums-container > li {
+  width: 140px;
+  height: 220px;
+  margin: 3px;
+  display: inline-block;
+  vertical-align: top;
+  /*
+		  margin: 10px 10px;
+		  background-color: $white;
+		  border: 1px solid $grey;
+		  */
+  color: white; }
+  .albums-container > li > a > .item__cover img {
+    width: 140px;
+    height: 140px; }
+  .albums-container > li > a > div {
+    line-height: 20px; }
+    .albums-container > li > a > div > .album {
+      color: white;
+      font-size: 14px; }
+    .albums-container > li > a > div > .artist {
+      color: #aaaaaa;
+      font-size: 13px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden; }

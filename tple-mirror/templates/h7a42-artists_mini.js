@@ -1,0 +1,1 @@
+var tpl_artists_mini = "<ul class=\"artists-container\">\n  {{#artists}}\n  <li>\n\t<a href=\"/artist/{{artist}}\">\n\t  <div>\n\t\t<img src=\"<!--{##covers}-->{{_COVER}}\">\n   \t  </div>\n\t  <div>\n\t\t<p>{{artist}}</p>\n\t  </div>\n  \t</a>\n  </li>\n  {{/artists}}\n</ul>\n";

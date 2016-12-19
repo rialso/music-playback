@@ -1,13 +1,11 @@
 {
   "start": "http-server -a localhost -p 8000",
-  "name": "Express-server",
+  "name": "music-playback",
   "version": "0.0.1",
   "dependencies": {
     "body-parser": "^1.14.1",
     "cors": "^2.5.3",
     "express": "^4.0.0",
-    "morgan": "^1.5.2",
-    "fs-extra": "^0.26.4",
-    "is-there": "^4.3.1"
+    "morgan": "^1.5.2"
   }
 }

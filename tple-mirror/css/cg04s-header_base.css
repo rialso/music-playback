@@ -1,0 +1,9 @@
+.header__wrap {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  color: #fff;
+  background-color: #181818;
+  border-bottom: 1px solid #aaaaaa;
+  height: 60px; }

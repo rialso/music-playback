@@ -1,1 +1,4 @@
-server/node_modules
+node_modules
+covers
+server/lib/database/todo.db
+web/farm-opts.js

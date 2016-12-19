@@ -1,0 +1,1 @@
+var tpl_header_base = "<div class=\"header__wrap\"></div>";

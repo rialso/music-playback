@@ -1,0 +1,2 @@
+var tpl_artists = "\n\n\n<ul id=\"artists-lists\" class=\"artists-lists\">\n\n{{#data}}\n\n         <li class=\"p-list\">\n            <a href=\"/artist/{{artist}}\">\n            \t<div>{{artist}}</div>\n            </a>\n         </li>\n  \n{{/data}}\n</ul>\n\n";
+var tpl_folder="/Users/rialso/Sites/private/music-playback-69/web/src/templates/";

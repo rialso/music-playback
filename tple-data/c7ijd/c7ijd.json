@@ -1,0 +1,60 @@
+{
+    "_id": "c7ijd",
+    "global": false,
+    "compound": false,
+    "share": false,
+    "name": "player",
+    "box": [
+        {
+            "data": "",
+            "name": "player",
+            "type": "html",
+            "compiled": "",
+            "preprocessor": "none",
+            "order": 0,
+            "_id": "qglty"
+        },
+        {
+            "data": "",
+            "name": "player",
+            "type": "css",
+            "compiled": "",
+            "preprocessor": "none",
+            "order": 1,
+            "_id": "gm2hg"
+        },
+        {
+            "data": "",
+            "name": "player",
+            "type": "js",
+            "compiled": "",
+            "preprocessor": "none",
+            "order": 2,
+            "_id": "qyeo5"
+        },
+        {
+            "data": "",
+            "name": "player",
+            "type": "tpl",
+            "compiled": "",
+            "preprocessor": "none",
+            "order": 3,
+            "_id": "0zbbg"
+        }
+    ],
+    "box_add": [
+        {
+            "id": "xp77p",
+            "value": [
+                "71mjk"
+            ]
+        },
+        {
+            "id": "uas0b",
+            "value": [
+                "6cq3z",
+                "hdndl"
+            ]
+        }
+    ]
+}

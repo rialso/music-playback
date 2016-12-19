@@ -1,0 +1,40 @@
+.library {
+  /*
+	height: 617px;
+	overflow-y: scroll;
+	*/
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  color: #fff;
+  background-color: #181818;
+  border-bottom: 1px solid #aaaaaa; }
+  .library > li {
+    margin: 0;
+    position: relative;
+    border-left: 3px solid transparent;
+    /*border: 1px solid red;*/ }
+    .library > li:hover {
+      background-color: #282828; }
+    .library > li > a {
+      padding: 9px 55px;
+      display: block;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden; }
+      .library > li > a > .icon {
+        position: absolute;
+        top: 8px;
+        left: 20px; }
+        .library > li > a > .icon svg {
+          margin-top: 3px;
+          width: 16px;
+          height: 16px;
+          fill: #AEAEAE; }
+    .library > li.selected {
+      background-color: #282828;
+      color: red;
+      border-left: 3px solid red; }
+      .library > li.selected .icon svg {
+        fill: red; }

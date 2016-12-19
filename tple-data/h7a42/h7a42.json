@@ -1,0 +1,59 @@
+{
+    "_id": "h7a42",
+    "compound": false,
+    "name": "",
+    "box": [
+        {
+            "data": "",
+            "name": "artists_mini",
+            "type": "html",
+            "compiled": "",
+            "preprocessor": "none",
+            "order": 0,
+            "_id": "u9mx7"
+        },
+        {
+            "data": "",
+            "name": "artists_mini",
+            "type": "css",
+            "compiled": "",
+            "preprocessor": "Sass",
+            "order": 1,
+            "_id": "7flfh"
+        },
+        {
+            "data": "",
+            "name": "artists_mini",
+            "type": "js",
+            "compiled": "",
+            "preprocessor": "none",
+            "order": 2,
+            "_id": "el161"
+        },
+        {
+            "data": "",
+            "name": "artists_mini",
+            "type": "tpl",
+            "compiled": "",
+            "preprocessor": "none",
+            "order": 3,
+            "_id": "r1ry2"
+        }
+    ],
+    "box_add": [
+        {
+            "id": "xp77p",
+            "value": [
+                "h68dm"
+            ]
+        },
+        {
+            "id": "1b38w",
+            "value": [
+                "3aksr"
+            ]
+        }
+    ],
+    "global": false,
+    "share": false
+}

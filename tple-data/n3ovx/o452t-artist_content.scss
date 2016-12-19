@@ -1,0 +1,409 @@
+@import '<!--{#1}-->1-variables';
+
+.artist-content {
+	/*
+  height: 617px;
+  overflow-y: scroll;
+	*/
+  background:$black;
+  padding: $padding;
+    
+  &.overview {
+      
+      display: flex;
+      flex-flow: row wrap;
+      
+      
+      
+    }
+    
+ 
+  
+}
+
+  @media (max-width: 768px) {
+  
+  .artist-content {
+    overflow-y: auto;
+  }
+  
+}
+
+  @media (max-width: 522px) {
+    
+    .artist-content {
+      
+ 
+    }
+    
+  }
+
+.tracks {
+  
+  & {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: $margin;
+  }
+  
+  &__heading {
+    
+    & {
+      color: $grey;
+      height: 42px;
+      
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+    }
+    
+    &__number {
+      margin-left: $margin-sm;
+      font-style: italic;
+    }
+    
+    &__title {
+      margin-left: 70px;
+      width: 45%;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+  }
+  
+  .track {
+	
+	  &.selected {
+        background-color: $light-black;
+		.track__selected{
+		  .icon{
+			display:block;
+			> svg {
+			  margin-top: 0px;
+			  width: 16px;
+			  height: 16px;
+			  fill: #AEAEAE;
+			}
+		  }
+		}
+      }
+	.track__selected{
+	  	width:36px;
+	  text-align: center;
+		.icon {
+		  display:none;
+		}
+	  }
+    & {
+      border-top: 1px solid $light-black;
+      height: 42px;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+    }
+    
+    &:hover {
+      background: $light-black;
+    }
+    
+    &:last-child {
+      border-bottom: 1px solid $light-black;
+    }
+    
+    &__art {
+      
+      img {
+        width: 42px;
+        height: 42px;
+      }
+      
+    }
+    
+    &__number {
+      
+      margin-left: $margin-sm;
+      color: $grey;
+      width: 12px;
+      
+    }
+    
+    &__added {
+      
+      margin-left: $margin * 2;
+      color: $sand;
+      
+      .added {
+        color: $sand;
+      }
+      
+      .not-added {
+        color: $grey;
+      }
+      
+    }
+    
+    &__title {
+      width: 45%;
+      /*margin-left: $margin * 2;*/
+	  margin-left: 20px;;
+      color: $white;
+      
+      &.featured {
+        
+        .title {
+          
+          &:after {
+            /*content: "-";*/
+            margin: 0 $margin-xs;
+          }
+          
+        }
+        
+        .feature {
+          color: $grey;
+          
+          &:after {
+            content: ",";
+            margin-right: $margin-xs;
+          }
+          
+          &:last-child {
+            
+            &:after {
+              content: "";
+              margin-right: 0;
+            }
+            
+          }
+
+          &:hover {
+            cursor: pointer;
+            color: $sand;
+            text-decoration: underline;
+          }
+          
+        }
+        
+      }
+      
+      
+    }
+    
+    &__explicit {
+      
+      .label {
+        border: 1px;
+        border-style: solid;
+        border-color: lighten( $light-black , 10% );
+        color: lighten( $light-black , 10% );
+        text-transform: uppercase;
+      }
+      
+    }
+    
+    &__plays {
+      
+      color: $grey;
+      margin-left: auto;
+      padding-right: $padding-sm;
+      
+    }
+    
+    &__length {
+      margin-left: auto;
+      color: $grey;
+    }
+    
+    &__popularity {
+      margin-left: 46px;
+      padding-right: $padding-sm;
+      font-size: $large;
+      color: $grey;
+    }
+    
+  }
+  
+}
+
+  @media (max-width: 1200px) {
+    
+    .tracks {
+      
+      &__heading {
+        
+        &__title {
+          width: auto;
+        }
+        
+        &__popularity {
+          display: none;
+        }
+        
+      }
+      
+      .track {
+        
+        &__title {
+          width: auto !important;
+        }
+        
+        &__explicit {
+          display: none;
+        }
+        
+        &__popularity {
+          display: none;
+        }
+        
+      }
+      
+    }
+    
+  }
+
+.overview {
+  
+  &__albums {
+    
+    width: 100%;
+    margin-top: $margin-lg;
+    
+    &__head {
+      
+      & {
+        border-bottom: 1px solid $light-black;
+        margin-bottom: $margin-sm;
+        
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .view-type {
+        color: $white;
+        margin-bottom: 4px;
+        
+        .active {
+          background: $light-black;
+          padding: 8px;
+          border-radius: 50%;
+          
+          
+        }
+        
+        i {
+          padding: 8px;
+          border-radius: 50%;
+          
+          &:hover {
+            padding: 8px;
+            border-radius: 50%;
+            background: lighten( $light-black , 5% );
+            cursor: pointer;
+          }
+        }
+        
+      }
+      
+    }
+    
+  }
+  
+}
+
+.album {
+  
+  &__info {
+    
+    & {
+      margin-bottom: $margin;
+      
+      display: flex;
+      flex-flow: row wrap;
+    }
+    
+    &__art {
+      
+      img {
+        width: 135px;
+        height: 135px;
+      }
+      
+    }
+    
+    &__meta {
+      
+      & {
+        width: calc( 100% - 150px);
+        margin-left: $margin;
+        
+        display: flex;
+        flex-flow: column wrap;
+      }
+      
+      .album__year {
+        color: $grey;
+        letter-spacing: 1px;
+      }
+      
+      .album__name {
+        color: $white;
+        font-size: $xx-large / 1.2;
+        font-weight: 100;
+      }
+      
+      .album__actions {
+        margin-top: auto;
+        
+        .save {
+          
+          padding-left: $padding-lg;
+          padding-right: $padding-lg; 
+          margin-right: $margin-sm;
+          
+          &:hover {
+            border-color: $green;
+          }
+        }
+        .more {
+          width: 27px;
+          height: 27px;
+          border-radius: 50%;
+          padding: 0;
+          text-align: center;
+        }
+      }
+    }
+    
+  }
+  .track {
+    
+    &__title {
+      width: 70%;
+    }
+  }
+}
+
+  @media (max-width: 1200px) {
+  
+  .album {
+    .tracks {
+      .track {
+        height: auto;
+        padding: $padding-sm 0;
+      }
+    }
+  }
+	
+}
+
+
+.section-title {
+  
+  text-transform: uppercase;
+  color: $grey;
+  letter-spacing: 1.25px;
+  font-size: $x-small * 1.2;
+  margin-bottom: $margin-sm;
+  
+}

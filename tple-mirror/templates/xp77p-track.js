@@ -1,0 +1,1 @@
+var tpl_track = "{\n  \"title\": \"Magnolia\",\n  \"artist\": \"Lee Fields & The Expressions\",\n  \"album\": \"Emma Jean\",\n  \"album_artist\": \"\",\n  \"track\": {\n    \"no\": 2,\n    \"of\": 11\n  },\n  \"disc\": {\n    \"no\": 1,\n    \"of\": 1\n  },\n  \"genre\": \"Soul / RnB\",\n  \"id\": \"PTisEloYLz2rbFov\"\n}";

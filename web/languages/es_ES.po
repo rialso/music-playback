@@ -1,0 +1,1583 @@
+# Spanish translations for Package Name Package package
+# Traducciones al español para el paquete Package Name Package.
+# Copyright (C) 2015 copyright Holder
+# This file is distributed under the same license as the Package Name Package package.
+# Automatically generated, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Package Name Package Version\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-18 13:00+0100\n"
+"PO-Revision-Date: 2015-11-17 12:23+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.4\n"
+
+msgid "1. Titularidad de la página web."
+msgstr "1. Titularidad de la página web."
+
+msgid "2. Propiedad intelectual de la web."
+msgstr "2. Propiedad intelectual de la web."
+
+msgid "3. Contenido de la web y enlaces."
+msgstr "3. Contenido de la web y enlaces."
+
+msgid "4. Uso correcto del sitio Web, contenidos y servicios."
+msgstr "4. Uso correcto del sitio web, contenidos y servicios."
+
+msgid "5. Actualización y modificación de la página web."
+msgstr "5. Actualización y modificación de la página web."
+
+msgid "6. Indicaciones sobre aspectos técnicos."
+msgstr "6. Indicaciones sobre aspectos técnicos."
+
+msgid "7. Tratamiento de datos del usuario."
+msgstr "7. Tratamiento de datos del usuario."
+
+msgid "8. Legislación y jurisdicción aplicable."
+msgstr "8. Legislación y jurisdicción aplicable."
+
+msgid "AVISO LEGAL Y POLITICA DE PRIVACIDAD"
+msgstr "AVISO LEGAL Y POLITICA DE PRIVACIDAD"
+
+msgid "Acceder"
+msgstr "Acceder"
+
+msgid "Act."
+msgstr "Act."
+
+msgid "Actividades"
+msgstr "Actividades"
+
+msgid "Actualizar recursos"
+msgstr "Actualizar recursos"
+
+msgid "Aplica"
+msgstr "Aplica"
+
+msgid "Aprender a aprender"
+msgstr "Aprender a aprender"
+
+msgid "Archivo .7bz incorrecto (Por favor, elige el archivo correcto)."
+msgstr "Archivo .7bz incorrecto (Por favor, elige el archivo correcto)."
+
+msgid "Archivo no encontrado"
+msgstr "Archivo no encontrado"
+
+msgid "Atlas"
+msgstr "Atlas"
+
+msgid "Automaticamente"
+msgstr "Automáticamente"
+
+msgid "Autores"
+msgstr "Autores"
+
+msgid "Avaluació inicial"
+msgstr "Evaluación inicial"
+
+msgid "Añadir libros solo en modo local"
+msgstr "Añadir libros solo en modo local"
+
+msgid "Base de datos"
+msgstr "Base de datos"
+
+msgid "Biblioteca"
+msgstr "Biblioteca"
+
+msgid "Biblioteca multimedia"
+msgstr "Biblioteca multimedia"
+
+msgid "Bien"
+msgstr "Bien"
+
+msgid "Borrar base de datos"
+msgstr "Borrar base de datos"
+
+msgid ""
+"CEDICIONES VICENS VIVES, S.A. no cederá o comunicará a terceros los datos "
+"recabados sin previo consentimiento expreso del usuario, excepto en el caso "
+"que la comunicación sea necesaria para prestarle el servicio que el usuario "
+"nos haya solicitado."
+msgstr ""
+"EDICIONES VICENS VIVES, S.A. no cederá o comunicará a terceros los datos "
+"recabados sin previo consentimiento expreso del usuario, excepto en el caso "
+"que la comunicación sea necesaria para prestarle el servicio que el usuario "
+"nos haya solicitado."
+
+msgid "Calculadora"
+msgstr "Calculadora"
+
+msgid "Calificaciones"
+msgstr "Calificaciones"
+
+msgid "Calificación (de 0 a 10)"
+msgstr "Calificación (de 0 a 10)"
+
+msgid "Cambiar el tamaño de letra"
+msgstr "Cambiar el tamaño de letra"
+
+msgid "Cerrar"
+msgstr "Cerrar"
+
+msgid "Cerrar resultados"
+msgstr "Cerrar resultados"
+
+msgid "Cerrar sesión"
+msgstr "Cerrar sesión"
+
+msgid "Comentario añadido"
+msgstr "Comentario añadido"
+
+msgid "Competencia digital"
+msgstr "Competencia digital"
+
+msgid "Competencias clave"
+msgstr "Competencias clave"
+
+msgid ""
+"Competencias matemáticas y competencias básicas en ciencias y tecnología"
+msgstr ""
+"Competencias matemáticas y competencias básicas en ciencias y tecnología"
+
+msgid "Competencias sociales y cívicas"
+msgstr "Competencias sociales y cívicas"
+
+msgid "Comprobar"
+msgstr "Comprobar"
+
+msgid "Comunicación lingüística"
+msgstr "Comunicación lingüística"
+
+msgid ""
+"Con EduBook puedes descargar tus libros y estudiar sin conexión a internet "
+"desde cualquier dispositivo:"
+msgstr ""
+"Con EduBook puedes descargar tus libros y estudiar sin conexión a internet "
+"desde cualquier dispositivo:"
+
+msgid ""
+"Con carácter general, las relaciones con los usuarios, derivadas de la "
+"prestación de servicios contenidos en esta página web, están sometidos a la "
+"legislación y jurisdicción española. Los usuarios de esta página web son "
+"conscientes de todo lo que se ha expuesto y lo aceptan voluntariamente."
+msgstr ""
+"Con carácter general, las relaciones con los usuarios, derivadas de la "
+"prestación de servicios contenidos en esta página web, están sometidos a la "
+"legislación y jurisdicción española. Los usuarios de esta página web son "
+"conscientes de todo lo que se ha expuesto y lo aceptan voluntariamente."
+
+msgid "Conciencia y expresiones culturales"
+msgstr "Conciencia y expresiones culturales"
+
+msgid "Conoce"
+msgstr "Conoce"
+
+msgid "Contraseña"
+msgstr "Contraseña"
+
+msgid "Contraseña:"
+msgstr "Contraseña:"
+
+msgid "Copia finalizada correctamente"
+msgstr "Copia finalizada correctamente"
+
+msgid ""
+"Cuando el usuario facilita sus datos de carácter personal utilizando nuestro "
+"e-mail de contacto, está autorizando expresamente a EDICIONES VICENS VIVES, "
+"S.A. al tratamiento automatizado de sus Datos Personales para poder atender "
+"sus peticiones de servicios. EDICIONES VICENS VIVES, S.A. incluirá los datos "
+"facilitados por el usuario en un fichero de su titularidad que contará con "
+"todas las medidas de seguridad necesarias y exigidas por la normativa "
+"vigente en materia de Protección de Datos."
+msgstr ""
+"Cuando el usuario facilita sus datos de carácter personal utilizando nuestro "
+"e-mail de contacto, está autorizando expresamente a EDICIONES VICENS VIVES, "
+"S.A. al tratamiento automatizado de sus datos personales para poder atender "
+"sus peticiones de servicios. EDICIONES VICENS VIVES, S.A. incluirá los datos "
+"facilitados por el usuario en un fichero de su titularidad que contará con "
+"todas las medidas de seguridad necesarias y exigidas por la normativa "
+"vigente en materia de protección de datos."
+
+msgid "Descarga la app que necesites y accede con estos datos:"
+msgstr "Descarga la app que necesites y accede con estos datos:"
+
+msgid "Descargando el libro"
+msgstr "Descargando el libro"
+
+msgid "Descargar el libro"
+msgstr "Descargar el libro"
+
+msgid "Descripción"
+msgstr "Descripción"
+
+msgid ""
+"Desde EDICIONES VICENS VIVES, S.A. no se garantiza la ausencia de virus y "
+"otros elementos que puedan causar daños en los sistemas informáticos, los "
+"documentos electrónicos o los ficheros de usuario de esta página web o de "
+"páginas web de terceros, y no se responsabiliza de los daños y perjuicios "
+"que se puedan llegar a producir por estos motivos. De igual forma, no se "
+"responsabiliza ante posibles daños y perjuicios que puedan afectar al "
+"usuario como consecuencia de errores, defectos u omisiones en la información "
+"que facilita cuando procede de terceras fuentes."
+msgstr ""
+"Desde EDICIONES VICENS VIVES, S.A. no se garantiza la ausencia de virus y "
+"otros elementos que puedan causar daños en los sistemas informáticos, los "
+"documentos electrónicos o los ficheros de usuario de esta página web o de "
+"páginas web de terceros, y no se responsabiliza de los daños y perjuicios "
+"que se puedan llegar a producir por estos motivos. De igual forma, no se "
+"responsabiliza ante posibles daños y perjuicios que puedan afectar al "
+"usuario como consecuencia de errores, defectos u omisiones en la información "
+"que facilita cuando procede de terceras fuentes."
+
+msgid "Diccionario"
+msgstr "Diccionario"
+
+msgid "Documentos"
+msgstr "Documentos"
+
+msgid "Doumentos"
+msgstr "Documentos"
+
+msgid ""
+"EDICIONES VICENS VIVES, S.A. no asume responsabilidad alguna derivada de "
+"problemas técnicos o fallos en los equipos informáticos, que se produzcan "
+"durante la conexión a Internet, o que puedan ser originados por terceras "
+"personas a través de intromisiones ilegítimas fuera de su control."
+msgstr ""
+"EDICIONES VICENS VIVES, S.A. no asume responsabilidad alguna derivada de "
+"problemas técnicos o fallos en los equipos informáticos que se produzcan "
+"durante la conexión a Internet o que puedan ser originados por terceras "
+"personas a través de intromisiones ilegítimas fuera de su control."
+
+msgid ""
+"EDICIONES VICENS VIVES, S.A. no se responsabiliza del mal uso que se realice "
+"de los contenidos de sus páginas web, siendo responsabilidad exclusiva de la "
+"persona que accede a ellos o los utiliza. Tampoco asume responsabilidad "
+"alguna por la información contenida en las páginas web de terceros a las que "
+"se pueda acceder a través de enlaces desde la página web. La presencia de "
+"estos enlaces tiene una finalidad informativa, y no constituyen en ningún "
+"caso una invitación a la contratación de productos o servicios que se puedan "
+"ofrecer en la página web de destino. En el caso de que EDICIONES VICENS "
+"VIVES, S.A. tuviera conocimiento efectivo de que la actividad o la "
+"información a la que remiten estos enlaces es ilícita, constitutiva de "
+"delito o que puede lesionar bienes o derechos de terceros susceptibles de "
+"indemnización, actuará con la diligencia necesaria para suprimir o "
+"inutilizar el enlace correspondiente a la mayor brevedad posible."
+msgstr ""
+"EDICIONES VICENS VIVES, S.A. no se responsabiliza del mal uso que se realice "
+"de los contenidos de sus páginas web, siendo responsabilidad exclusiva de la "
+"persona que accede a ellos o los utiliza. Tampoco asume responsabilidad "
+"alguna por la información contenida en las páginas web de terceros a las que "
+"se pueda acceder a través de enlaces desde la página web. La presencia de "
+"estos enlaces tiene una finalidad informativa, y no constituyen en ningún "
+"caso una invitación a la contratación de productos o servicios que se puedan "
+"ofrecer en la página web de destino. En el caso de que EDICIONES VICENS "
+"VIVES, S.A. tuviera conocimiento efectivo de que la actividad o la "
+"información a la que remiten estos enlaces es ilícita, constitutiva de "
+"delito o que puede lesionar bienes o derechos de terceros susceptibles de "
+"indemnización, actuará con la diligencia necesaria para suprimir o "
+"inutilizar el enlace correspondiente a la mayor brevedad posible."
+
+msgid ""
+"EDICIONES VICENS VIVES, S.A. se reserva el derecho de actualizar, modificar "
+"o eliminar la información contenida en su página web, y su configuración o "
+"presentación, en cualquier momento, sin previo aviso y sin asumir ningún "
+"tipo de responsabilidad por hacerlo."
+msgstr ""
+"EDICIONES VICENS VIVES, S.A. se reserva el derecho de actualizar, modificar "
+"o eliminar la información contenida en su página web, y su configuración o "
+"presentación, en cualquier momento, sin previo aviso y sin asumir ningún "
+"tipo de responsabilidad por hacerlo."
+
+msgid "Edubook3D"
+msgstr "Edubook3D"
+
+msgid "El libro se ha descargado correctamente"
+msgstr "El libro se ha descargado correctamente"
+
+msgid "El nombre de usuario o la contraseña son incorrectos"
+msgstr "El nombre de usuario o la contraseña son incorrectos"
+
+msgid ""
+"El usuario deberá abstenerse de facilitar datos identificativos propios que "
+"no permitan una correcta identificación."
+msgstr ""
+"El usuario deberá abstenerse de facilitar datos identificativos propios que "
+"no permitan una correcta identificación."
+
+msgid ""
+"El usuario deberá abstenerse de incorporar virus u otros elementos físicos o "
+"electrónicos que puedan dañar o impedir el normal funcionamiento de la red, "
+"del sistema o de equipos informáticos (hardware y software) de EDICIONES "
+"VICENS VIVES, S.A., o de terceros o que puedan dañar los documentos "
+"electrónicos y archivos almacenados en dichos equipos informáticos."
+msgstr ""
+"El usuario deberá abstenerse de incorporar virus u otros elementos físicos o "
+"electrónicos que puedan dañar o impedir el normal funcionamiento de la red, "
+"del sistema o de equipos informáticos (hardware y software) de EDICIONES "
+"VICENS VIVES, S.A., o de terceros o que puedan dañar los documentos "
+"electrónicos y archivos almacenados en dichos equipos informáticos."
+
+msgid ""
+"El usuario deberá abstenerse de manipular datos identificativos de EDICIONES "
+"VICENS VIVES, S.A., así como el contenido, o los servicios que se ofrecen en "
+"los sitios web www.vicensvivesdigital.com, www.vicensvivesdigital.cat,  "
+"http://aula.vicensvivesdigital.com y http://aula.vicensvivesdigital.cat."
+msgstr ""
+"El usuario deberá abstenerse de manipular datos identificativos de EDICIONES "
+"VICENS VIVES, S.A., así como el contenido o los servicios que se ofrecen en "
+"los sitios web www.vicensvivesdigital.com, www.vicensvivesdigital.cat,  "
+"http://aula.vicensvivesdigital.com y http://aula.vicensvivesdigital.cat."
+
+msgid ""
+"El usuario deberá abstenerse de manipular los dispositivos técnicos de "
+"protección de contenidos o de información, y en general de configuración de "
+"los espacios Web www.vicensvivesdigital.com, www.vicensvivesdigital.cat,  "
+"http://aula.vicensvivesdigital.com y http://aula.vicensvivesdigital.cat."
+msgstr ""
+"El usuario deberá abstenerse de manipular los dispositivos técnicos de "
+"protección de contenidos o de información y, en general, de configuración de "
+"los espacios web www.vicensvivesdigital.com, www.vicensvivesdigital.cat,  "
+"http://aula.vicensvivesdigital.com y http://aula.vicensvivesdigital.cat."
+
+msgid ""
+"El usuario deberá abstenerse de obtener informaciones, mensajes, gráficos, "
+"dibujos, archivos de sonido y/o imagen, fotografías, software y, en general, "
+"cualquier clase de material accesible a través del sitio Web o de los "
+"servicios, empleando para ello medios distintos de los que se hayan puesto a "
+"su disposición, o en general, de los que se empleen habitualmente en "
+"Internet."
+msgstr ""
+"El usuario deberá abstenerse de obtener informaciones, mensajes, gráficos, "
+"dibujos, archivos de sonido y/o imagen, fotografías, software y, en general, "
+"cualquier clase de material accesible a través del sitio web o de los "
+"servicios, y emplea para ello medios distintos de los que se hayan puesto a "
+"su disposición, o en general, de los que se empleen habitualmente en "
+"Internet."
+
+msgid ""
+"El usuario podrá ejercitar sus derechos de acceso, rectificación, "
+"cancelación y oposición, dirigiéndose por escrito a EDICIONES VICENS VIVES, "
+"S.A., Responsable del Fichero, ubicado en la Avenida de Sarrià, 130, 08017 "
+"de Barcelona o por correo electrónico a e@vicensvives.es."
+msgstr ""
+"El usuario podrá ejercitar sus derechos de acceso, rectificación, "
+"cancelación y oposición, dirigiéndose por escrito a EDICIONES VICENS VIVES, "
+"S.A., responsable del fichero, ubicado en la avenida de Sarrià, 130, 08017 "
+"de Barcelona o por correo electrónico a e@vicensvives.es."
+
+msgid ""
+"El usuario se compromete a utilizar el sitio Web, los contenidos y servicios "
+"de conformidad con la Ley y los presentes términos y condiciones de uso. De "
+"la misma forma, el usuario se obliga a no utilizar los sitios web www."
+"vicensvivesdigital.com, www.vicensvivesdigital.cat, http://aula."
+"vicensvivesdigital.com y http://aula.vicensvivesdigital.cat, el contenido y "
+"los servicios que se ofrecen en ellos con fines o efectos ilícitos, "
+"contrarios al contenido de estas Condiciones Generales, lesivas de los "
+"derechos o intereses de terceros, o que de cualquier forma puedan dañar, "
+"inutilizar, sobrecargar o deteriorar el sitio Web, su contenido los "
+"servicios o impedir la normal utilización o disfrute del sitio Web por otros "
+"usuarios."
+msgstr ""
+"El usuario se compromete a utilizar el sitio web, los contenidos y servicios "
+"de conformidad con la ley y los presentes términos y condiciones de uso. De "
+"la misma forma, el usuario se obliga a no utilizar los sitios web www."
+"vicensvivesdigital.com, www.vicensvivesdigital.cat, http://aula."
+"vicensvivesdigital.com y http://aula.vicensvivesdigital.cat, el contenido y "
+"los servicios que se ofrecen en ellos con fines o efectos ilícitos, "
+"contrarios al contenido de estas condiciones generales, lesivas de los "
+"derechos o intereses de terceros, o que de cualquier forma puedan dañar, "
+"inutilizar, sobrecargar o deteriorar el sitio web, su contenido los "
+"servicios o impedir la normal utilización o disfrute del sitio web por otros "
+"usuarios."
+
+msgid ""
+"En las actividades de matemáticas, aparece el grado de dificultad indicado "
+"con &#9679; (nivel bajo), &#9679;&#9679; (nivel medio) y &#9679;&#9679;"
+"&#9679; (nivel alto)."
+msgstr ""
+"En las actividades de matemáticas, aparece el grado de dificultad indicado "
+"con &#9679; (nivel bajo), &#9679;&#9679; (nivel medio) y &#9679;&#9679;"
+"&#9679; (nivel alto)."
+
+msgid "Enlaces"
+msgstr "Enlaces"
+
+msgid "Enviar"
+msgstr "Enviar"
+
+msgid "Equivalencia en papel<sup>*</sup>"
+msgstr "Equivalencia en papel<sup>*</sup>"
+
+msgid "Equivalencia libro papel y libro digital"
+msgstr "Equivalencia libro papel y libro digital"
+
+msgid "Error al añadir la información del libro"
+msgstr "Error al añadir la información del libro"
+
+msgid "Error al copiar el libro"
+msgstr "Error al copiar el libro"
+
+msgid "Error al entrar los datos del libro en la BD."
+msgstr "Error al entrar los datos del libro en la base de datos."
+
+msgid "Error de conexión con el servidor"
+msgstr "Error de conexión con el servidor"
+
+msgid "Escribir una respuesta"
+msgstr "Escribir una respuesta"
+
+msgid ""
+"Esta página Web es propiedad de EDICIONES VICENS VIVES, S.A. El hecho de "
+"acceder a esta página implica el conocimiento y aceptación de los siguientes "
+"términos y condiciones de uso."
+msgstr ""
+"Esta página web es propiedad de EDICIONES VICENS VIVES, S.A. El hecho de "
+"acceder a esta página implica el conocimiento y aceptación de los siguientes "
+"términos y condiciones de uso."
+
+msgid ""
+"Esta página web puede utilizar cookies. El usuario tiene la posibilidad de "
+"impedir la generación de cookies, marcando la correspondiente opción de menú "
+"en su programa de navegación aunque si opta por desactivar el uso de las "
+"cookies es posible que se vea afectado el funcionamiento de esta página web."
+msgstr ""
+"Esta página web puede utilizar cookies. El usuario tiene la posibilidad de "
+"impedir la generación de cookies marcando la correspondiente opción de menú "
+"en su programa de navegación aunque si opta por desactivar el uso de las "
+"cookies es posible que se vea afectado el funcionamiento de esta página web."
+
+msgid "Estamos trabajando en este libro, pronto estará disponible."
+msgstr "Estamos trabajando en este libro, pronto estará disponible."
+
+msgid ""
+"Este libro está en proceso de edición pero ya puedes acceder a parte del "
+"contenido."
+msgstr ""
+"Este libro está en proceso de edición pero ya puedes acceder a parte del "
+"contenido."
+
+msgid ""
+"Este libro está en proceso de edición pero ya puedes acceder a parte del "
+"contenido. "
+msgstr ""
+"Este libro está en proceso de edición pero ya puedes acceder a parte del "
+"contenido. "
+
+msgid ""
+"Este símbolo, que aparece al inicio de la lista de actividades, indica la "
+"página o páginas en las que se encuentran las actividades en el libro de "
+"papel."
+msgstr ""
+"Este símbolo, que aparece al inicio de la lista de actividades, indica la "
+"página o páginas en las que se encuentran las actividades en el libro de "
+"papel."
+
+msgid ""
+"Este símbolo, que aparece por debajo del enunciado de la actividad, indica "
+"la equivalencia del número de actividad en el libro de papel."
+msgstr ""
+"Este símbolo, que aparece por debajo del enunciado de la actividad, indica "
+"la equivalencia del número de actividad en el libro de papel."
+
+msgid "Excelente"
+msgstr "Excelente"
+
+msgid "First Edition"
+msgstr "First Edition"
+
+msgid "Formato erróneo"
+msgstr "Formato erróneo"
+
+msgid "Guardando datos"
+msgstr "Guardando datos"
+
+msgid "Hay una nueva versión de EduBook3d."
+msgstr "Hay una nueva versión de EduBook3D."
+
+msgid "ISBN"
+msgstr "ISBN"
+
+msgid "Información actividades"
+msgstr "Información actividades"
+
+msgid "Insuficiente"
+msgstr "Insuficiente"
+
+msgid "Inteligencia cinético-corporal"
+msgstr "Inteligencia cinético-corporal"
+
+msgid "Inteligencia espacial"
+msgstr "Inteligencia espacial"
+
+msgid "Inteligencia interpersonal"
+msgstr "Inteligencia interpersonal"
+
+msgid "Inteligencia intrapersonal"
+msgstr "Inteligencia intrapersonal"
+
+msgid "Inteligencia lingüística"
+msgstr "Inteligencia lingüística"
+
+msgid "Inteligencia lógico-matemática"
+msgstr "Inteligencia lógico-matemática"
+
+msgid "Inteligencia musical"
+msgstr "Inteligencia musical"
+
+msgid "Inteligencia naturalista"
+msgstr "Inteligencia naturalista"
+
+msgid "Inteligencias múltiples"
+msgstr "Inteligencias múltiples"
+
+msgid "Ir a la biblioteca"
+msgstr "Ir a la biblioteca"
+
+msgid ""
+"L' <em>Avaluació inicial</em> proposada vol recordar conceptes i "
+"procediments que l'alumnat ja ha treballat anteriorment."
+msgstr ""
+"La <em>Evaluación inicial</em> propuesta quiere recordar conceptos y "
+"procedimientos que el alumnado ya ha trabajado con anterioridad."
+
+msgid "La copia ha fallado."
+msgstr "La copia ha fallado."
+
+msgid "La inserción del libro ha fallado."
+msgstr "La inserción del libro ha fallado."
+
+msgid ""
+"Las calificaciones de las actividades estan definidas con los siguientes "
+"colores:"
+msgstr ""
+"Las calificaciones de las actividades están definidas con los siguientes "
+"colores:"
+
+msgid "Legal"
+msgstr "Legal"
+
+msgid "Libros"
+msgstr "Libros"
+
+msgid "Libros disponibles"
+msgstr "Libros disponibles"
+
+msgid "Licencia válida hasta"
+msgstr "Licencia válida hasta"
+
+msgid "Lista de alumnos"
+msgstr "Lista de alumnos"
+
+msgid "Log Out"
+msgstr "Log out"
+
+msgid "Los datos no se han enviado, inténtalo mas tarde"
+msgstr "Los datos no se han enviado, inténtalo más tarde"
+
+msgid "Los datos se han enviado correctamente"
+msgstr "Los datos se han enviado correctamente"
+
+msgid ""
+"Los nombres de dominio www.vicensvivesdigital.com y www.vicensvivesdigital."
+"cat y los subdominios http://aula.vicensvivesdigital.com y http://aula."
+"vicensvivesdigital.cat están registrados a favor de EDICIONES VICENS VIVES, "
+"S.A., con CIF A-08375545 y domicilio social en la Avenida de Sarrià, 130, "
+"08017 de Barcelona, debidamente inscrita en el Registro Mercantil de "
+"Barcelona, Sección 8, Hoja 90485.Teléfono de contacto +34 93 252 37 00 y "
+"dirección de correo electrónico e@vicensvives.es."
+msgstr ""
+"Los nombres de dominio www.vicensvivesdigital.com y www.vicensvivesdigital."
+"cat y los subdominios http://aula.vicensvivesdigital.com y http://aula."
+"vicensvivesdigital.cat están registrados a favor de EDICIONES VICENS VIVES, "
+"S.A., con CIF A-08375545 y domicilio social en la avenida de Sarrià, 130, "
+"08017 de Barcelona, debidamente inscrita en el Registro Mercantil de "
+"Barcelona, Sección 8, Hoja 90485. Teléfono de contacto +34 93 252 37 00 y "
+"dirección de correo electrónico e@vicensvives.es."
+
+msgid ""
+"Los números de actividad marcados en <b>azul</b> indican que el alumno "
+"desarrolla el proceso cognitivo de \"conocer\" donde se rabaja directamente "
+"el contenido."
+msgstr ""
+"Los números de actividad marcados en <b>azul</b> indican que el alumno "
+"desarrolla el proceso cognitivo de \"conocer\" donde se trabaja directamente "
+"el contenido."
+
+msgid ""
+"Los números de actividad marcados en <b>rojo</b> indican que el alumno "
+"desarrolla el proceso cognitivo de \"aplicar\" donde se relacionan el "
+"contenido trabajado con los conocimientos previos del alumno y con el "
+"entorno, es decir, trabajan con el contexto."
+msgstr ""
+"Los números de actividad marcados en <b>rojo</b> indican que el alumno "
+"desarrolla el proceso cognitivo de \"aplicar\" donde se relacionan el "
+"contenido trabajado con los conocimientos previos del alumno y con el "
+"entorno, es decir, trabajan con el contexto."
+
+msgid ""
+"Los números de actividad marcados en <b>verde</b> indican que el alumno "
+"desarrolla el proceso cognitivo de \"razonar\" donde se pretende que el "
+"alumno reflexione, explique y razone el porqué de las respuestas."
+msgstr ""
+"Los números de actividad marcados en <b>verde</b> indican que el alumno "
+"desarrolla el proceso cognitivo de \"razonar\" donde se pretende que el "
+"alumno reflexione, explique y razone el porqué de las respuestas."
+
+msgid "Manualmente"
+msgstr "Manualmente"
+
+msgid "Mis libros"
+msgstr "Mis libros"
+
+msgid "Modo desarrollo"
+msgstr "Modo desarrollo"
+
+msgid "Muestra el número de página y de actividad en el libro de papel."
+msgstr "Muestra el número de página y de actividad en el libro de papel."
+
+msgid "Muestra la dificultad, inteligencias múltiples y las competencias"
+msgstr "Muestra la dificultad, las inteligencias múltiples y las competencias"
+
+msgid "Multimedia"
+msgstr "Multimedia"
+
+msgid "Niveles de dificultad"
+msgstr "Niveles de dificultad"
+
+msgid ""
+"No se preocupe, esto tiene fácil solución.<br>Sólo tiene que hacer clic en "
+"uno de los iconos que aparecen abajo y seguir las instrucciones. Antes de "
+"que se dé cuenta estará trabajando con Edubook3D."
+msgstr ""
+"No te preocupes, esto tiene fácil solución.<br>Sólo tienes que hacer clic en "
+"uno de los iconos que aparecen abajo y seguir las instrucciones. Antes de "
+"que te des cuenta estarás trabajando con Edubook3D."
+
+msgid "No tiene alumnos"
+msgstr "No tiene alumnos"
+
+msgid "Nota de este intento"
+msgstr "Nota de este intento"
+
+msgid "Nota del profesor"
+msgstr "Nota del profesor"
+
+msgid "Nota media de todos los intentos"
+msgstr "Nota media de todos los intentos"
+
+msgid "Notable"
+msgstr "Notable"
+
+msgid "Notas"
+msgstr "Notas"
+
+msgid "Para poder utilizar o descargar nuevos libros tienes que"
+msgstr "Para poder utilizar o descargar nuevos libros tienes que"
+
+msgid "Pg."
+msgstr "Pg."
+
+msgid "Pg.122"
+msgstr "Pg. 122"
+
+msgid "Pg.38"
+msgstr "Pg. 38"
+
+msgid "Please wait while we do what we do best."
+msgstr "Please wait while we do what we do best."
+
+msgid "Pon tu nota"
+msgstr "Pon tu nota"
+
+msgid ""
+"Por favor, no cierre esta ventana hasta que se complete la operación.<br/> "
+"Este proceso puede durar varios segundos."
+msgstr ""
+"Por favor, no cierres esta ventana hasta que se complete la operación.<br/> "
+"Este proceso puede durar varios segundos."
+
+msgid "Preferencias"
+msgstr "Preferencias"
+
+msgid "Preferencias libros"
+msgstr "Preferencias libros"
+
+msgid "Preferencias usuario"
+msgstr "Preferencias usuario"
+
+msgid "Primera edición"
+msgstr "Primera edición"
+
+msgid "Procesos cognitivos"
+msgstr "Procesos cognitivos"
+
+msgid "Puede ralentizar la aplicación dependiendo de la velocidad de la red"
+msgstr "Puede ralentizar la aplicación dependiendo de la velocidad de la red"
+
+msgid ""
+"Puedes <b>activar y desactivar</b> la información sobre la equivalencia en "
+"papel, dificultad, competencias, etc... desde las <span class=\"tool\"></"
+"span> <b>preferencias</b> de tu libro."
+msgstr ""
+"Puedes <b>activar y desactivar</b> la información sobre la equivalencia en "
+"papel, dificultad, competencias, etc... desde las <span class=\"tool\"></"
+"span> <b>preferencias</b> de tu libro."
+
+msgid "Recopilando información"
+msgstr "Recopilando información"
+
+msgid "Reflexiona"
+msgstr "Reflexiona"
+
+msgid "Repetir"
+msgstr "Repetir"
+
+msgid "Salir"
+msgstr "Salir"
+
+msgid "Selecciona alguna respuesta"
+msgstr "Selecciona alguna respuesta"
+
+msgid "Selecciona un alumno"
+msgstr "Selecciona un alumno"
+
+msgid "Seleccionar una respuesta por pregunta"
+msgstr "Seleccionar una respuesta por pregunta"
+
+msgid "Sentido de iniciativa y espíritu emprendedor"
+msgstr "Sentido de iniciativa y espíritu emprendedor"
+
+msgid ""
+"Si es la primera vez que se identifica, asegúrese de tener conexión a "
+"Internet"
+msgstr ""
+"Si es la primera vez que te identificas, asegúrate de que tienes conexión a "
+"Internet"
+
+msgid ""
+"Si está activo añade libros solo en modo local, si está inactivo añade "
+"libros en modo cloud y local."
+msgstr ""
+"Si está activo añade libros solo en modo local, si está inactivo añade "
+"libros en modo cloud y local."
+
+msgid "Simbología y nomenclatura"
+msgstr "Simbología y nomenclatura"
+
+msgid "Sin connexión al servidor"
+msgstr "Sin conexión al servidor"
+
+msgid "Suficiente"
+msgstr "Suficiente"
+
+msgid "Sólo disponible en algunos libros."
+msgstr "Solo disponible en algunos libros."
+
+msgid "Tabla de contenidos"
+msgstr "Tabla de contenidos"
+
+msgid "También puedes estudiar sin conexión"
+msgstr "También puedes estudiar sin conexión"
+
+msgid "Te quedan"
+msgstr "Te quedan"
+
+msgid ""
+"Todos los derechos de propiedad intelectual del contenido de esta página web "
+"y su diseño gráfico, son propiedad exclusiva de EDICIONES VICENS VIVES, S."
+"A., y es a quien le corresponde el ejercicio exclusivo de los derechos de "
+"explotación de los mismos. Así, queda prohibida su reproducción, "
+"distribución, comunicación pública y modificación, total o parcial, sin "
+"previa autorización expresa de EDICIONES VICENS VIVES, S.A. De igual forma, "
+"todos los signos distintivos, marcas, nombres comerciales o signos de "
+"cualquier clase contenidos en esta página web están protegidos por ley."
+msgstr ""
+"Todos los derechos de propiedad intelectual del contenido de esta página web "
+"y su diseño gráfico son propiedad exclusiva de EDICIONES VICENS VIVES, S.A., "
+"y es a quien le corresponde el ejercicio exclusivo de los derechos de "
+"explotación de los mismos. Así, queda prohibida su reproducción, "
+"distribución, comunicación pública y modificación, total o parcial, sin "
+"previa autorización expresa de EDICIONES VICENS VIVES, S.A. De igual forma, "
+"todos los signos distintivos, marcas, nombres comerciales o signos de "
+"cualquier clase contenidos en esta página web están protegidos por ley."
+
+msgid "Título"
+msgstr "Título"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Usuario"
+msgstr "Usuario"
+
+msgid "Usuario:"
+msgstr "Usuario:"
+
+msgid "Validar"
+msgstr "Validar"
+
+msgid "Ver resultados"
+msgstr "Ver resultados"
+
+msgid "Versión"
+msgstr "Versión"
+
+msgid "Versión Profesor disponible Online."
+msgstr "Versión profesor disponible en linea."
+
+msgid "Versión de JSON no válida"
+msgstr "Versión de JSON no válida"
+
+msgid "actividad-usuario"
+msgstr "actividad-usuario"
+
+msgid "actividades"
+msgstr "Actividades"
+
+msgid "autoeval"
+msgstr "Autoevaluación"
+
+msgid "autoeval_txt"
+msgstr ""
+"Esta prueba está pensada para que el mismo programa corrija las respuestas "
+"del alumnado, aunque el profesor o profesora también puede revisar las "
+"respuestas y la puntuación obtenida."
+
+msgid "caracteres"
+msgstr "carácteres"
+
+msgid "corregir"
+msgstr "corregir"
+
+msgid "descargar y actualizar la aplicación."
+msgstr "descargar y actualizar la aplicación."
+
+msgid "evaluacion"
+msgstr "evaluación"
+
+msgid "evaluacion_inicial"
+msgstr "evaluación inicial"
+
+msgid "evaluacion_txt"
+msgstr ""
+"Esta prueba consta de actividades de respuesta abierta. Es, por tanto, el "
+"profesor o profesora quien ha de evaluar y puntuar las respuestas dadas."
+
+msgid "nota errónea"
+msgstr "nota errónea"
+
+msgid "prefs"
+msgstr "preferencias"
+
+msgid "resumenes"
+msgstr "resúmenes"
+
+msgid "tabla_periodica"
+msgstr "Tabla periódica"
+
+msgid "usuario-actividad"
+msgstr "usuario-actividad"
+
+msgid "¡Actualice su navegador!"
+msgstr "¡Actualiza tu navegador!"
+
+msgid "¡Descárgatela aquí!"
+msgstr "¡Descárgatela aquí!"
+
+msgid "¡Hay campos vacios!"
+msgstr "¡Hay campos vacíos!"
+
+msgid "¿Quieres actualizar los libros descargados?"
+msgstr "¿Quieres actualizar los libros descargados?"
+
+msgid "¿Quieres borrar el libro?"
+msgstr "¿Quieres borrar el libro?"
+
+msgid "¿Quieres borrar toda la base de datos?"
+msgstr "¿Quieres borrar toda la base de datos?"
+
+msgid "¿Quieres dejarle un comentario?"
+msgstr "¿Quieres dejarle un comentario?"
+
+msgid "Índice"
+msgstr "Índice"
+
+msgid "*"
+msgstr "*"
+
+msgid "/ap"
+msgstr "/ap"
+
+msgid "/home"
+msgstr "/home"
+
+msgid "/lb"
+msgstr "/lb"
+
+msgid "/login"
+msgstr "/login"
+
+msgid "/tm"
+msgstr "/tm"
+
+msgid "<div></div>"
+msgstr "<div></div>"
+
+msgid "Aviso legal"
+msgstr "Aviso legal"
+
+msgid "Calificación"
+msgstr "Calificación"
+
+msgid "Calificación del profesor"
+msgstr "Calificación del profesor"
+
+msgid "Configuración"
+msgstr "Configuración"
+
+msgid "Corregir"
+msgstr "Corregir"
+
+msgid "Gestión libros"
+msgstr "Gestión libros"
+
+msgid "Lo sentimos, este libro todavía no está disponible."
+msgstr "Lo sentimos, este libro todavía no está disponible."
+
+msgid "Resolver"
+msgstr "Resolver"
+
+msgid "Ver Actividad"
+msgstr "Ver actividad"
+
+msgid "Ver Resultados"
+msgstr "Ver resultados"
+
+msgid "abort"
+msgstr "abort"
+
+msgid "acceder"
+msgstr "acceder"
+
+msgid "accept"
+msgstr "aceptar"
+
+msgid "acces_teacher"
+msgstr "Versión profesor disponible en línea."
+
+msgid "actualizacion"
+msgstr "actualización"
+
+msgid "actv_finales"
+msgstr "Actividades finales"
+
+msgid "add_books_local"
+msgstr "Añadir libros solo en modo local"
+
+msgid "add_books_local_txt"
+msgstr ""
+"Si está activo añade libros solo en modo local. Si está inactivo añade "
+"libros en modo cloud y local"
+
+msgid "add_description"
+msgstr "Añadir descripción"
+
+msgid "add_filepath"
+msgstr "Añadir ruta"
+
+msgid "add_link"
+msgstr "Añadir enlace"
+
+msgid "add_name"
+msgstr "Añadir nombre"
+
+msgid "add_new_activities"
+msgstr "Añadir una actividad"
+
+msgid "add_new_document"
+msgstr "Añadir un documento"
+
+msgid "add_note"
+msgstr "Añadir nota"
+
+msgid "add_quiz"
+msgstr "Añadir cuestionario"
+
+msgid "add_recursos"
+msgstr "¿Como añadir recursos?"
+
+msgid "add_tiching"
+msgstr "Añadir ruta de Tiching"
+
+msgid "anexos"
+msgstr "Anexos"
+
+msgid "antes_de_empezar"
+msgstr "Antes de empezar"
+
+msgid "atlas_geo"
+msgstr "Atlas geográfico"
+
+msgid "automaticamente"
+msgstr "automáticamente"
+
+msgid "autores"
+msgstr "autores"
+
+msgid "available_books"
+msgstr "Libros disponibles"
+
+msgid "aviso_legal"
+msgstr "Aviso legal"
+
+msgid "back"
+msgstr "Atrás"
+
+msgid "bb_multimedia"
+msgstr "Biblioteca multimedia"
+
+msgid "biblioteca"
+msgstr "biblioteca"
+
+msgid "body"
+msgstr "Cuerpo"
+
+msgid "books"
+msgstr "Libros"
+
+msgid "browser_info"
+msgstr "Información de los navegadores"
+
+msgid "browser_not_supported"
+msgstr "La versión de tu navegador no es compatible"
+
+msgid "browser_support"
+msgstr "Los navegadores compatibles con EduBook3D son:"
+
+msgid "browsers"
+msgstr "Navegadores"
+
+msgid "calculadora"
+msgstr "calculadora"
+
+msgid "calificaciones"
+msgstr "calificaciones"
+
+msgid "cancel"
+msgstr "Cancelar"
+
+msgid "characters"
+msgstr "Carácteres"
+
+msgid "comments"
+msgstr "Comentarios"
+
+msgid "conditions_terms"
+msgstr "Condiciones de uso y términos legales"
+
+msgid "continua"
+msgstr "continúa"
+
+msgid "copy"
+msgstr "© Vicens Vives Primaria, S.A. | © Ediciones Vicens Vives, S.A."
+
+msgid "copy_failed"
+msgstr "La copia ha fallado."
+
+msgid "correcta"
+msgstr "correcta."
+
+msgid "correctas"
+msgstr "correctas."
+
+msgid "database"
+msgstr "Base de datos"
+
+msgid "database_delete"
+msgstr "Borrar base de datos"
+
+msgid "del_db"
+msgstr "¿Quieres borrar la base de datos?"
+
+msgid "delete"
+msgstr "Borrar"
+
+msgid "delete_book_alert"
+msgstr "¿Quieres borrar el libro?"
+
+msgid "delete_database"
+msgstr "Borrar la base de datos"
+
+msgid "delete_link"
+msgstr "Borrar enlace"
+
+msgid "delete_note"
+msgstr "Eliminar nota"
+
+msgid "description"
+msgstr "Descripción"
+
+msgid "development_mode"
+msgstr "Modo desarrollo"
+
+msgid "diccionario"
+msgstr "diccionario"
+
+msgid "documentos"
+msgstr "documentos"
+
+msgid "down_book_completed"
+msgstr "El libro se ha descargado correctamente"
+
+msgid "download_book"
+msgstr "Descargar el libro"
+
+msgid "download_firefox"
+msgstr "Descarga de Firefox para Windows"
+
+msgid "downloading"
+msgstr "Descargando"
+
+msgid "downloading_book"
+msgstr "Descargando el libro"
+
+msgid "drag_book_left"
+msgstr "Deslizar el libro hacia la izquierda para ver las opciones"
+
+msgid "edit_note"
+msgstr "Editar nota"
+
+msgid "edit_weblink"
+msgstr "Editar enlace"
+
+msgid "empezar"
+msgstr "empezar"
+
+msgid "empty_fields"
+msgstr "¡Hay campos vacíos!"
+
+msgid "enlaces"
+msgstr "Enlaces"
+
+msgid "error"
+msgstr "error"
+
+msgid "error_addBook"
+msgstr "Error al copiar el libro"
+
+msgid "error_addBookData"
+msgstr "Error al entrar los datos del libro en la base de datos."
+
+msgid "error_server"
+msgstr "Error de conexión con el servidor"
+
+msgid "error_timeout"
+msgstr "El tiempo de espera ha terminado. Por favor, inténtalo más tarde"
+
+msgid "estudia"
+msgstr "Estudia"
+
+msgid "eval_inicial_txt"
+msgstr ""
+"<h3>Evaluación inicial</h3><p>La <em>Evaluación inicial</em> sirve para "
+"recordar algunos conceptos y procedimientos que los alumnos y las alumnas "
+"han trabajado anteriormente.</p><p>Esta <em>Evaluación inicial</em> se "
+"presenta en dos formatos de contenido similar pero no idéntico: PDF, con "
+"actividades para imprimir, y digital, con actividades para realizar en el "
+"ordenador.</p>"
+
+msgid "evaluacion_final"
+msgstr "Evaluación final"
+
+msgid "filedata_not_found"
+msgstr "Archivo no encontrado"
+
+msgid "first_time"
+msgstr ""
+"Si es la primera vez que te identificas, asegúrate de que tienes conexión a "
+"Internet"
+
+msgid "format_error"
+msgstr "Formato erróneo"
+
+msgid "gathering_information"
+msgstr "Recopilando información"
+
+msgid "grade"
+msgstr "Calificación"
+
+msgid "grade_teacher"
+msgstr "Calificación del profesor"
+
+msgid "has_hecho"
+msgstr "Has hecho"
+
+msgid "hay"
+msgstr "Hay"
+
+msgid "hay_pl"
+msgstr "Hay"
+
+msgid "help"
+msgstr "Ayuda"
+
+msgid "hide"
+msgstr "hide"
+
+msgid "history"
+msgstr "Historial"
+
+msgid "incorrecta"
+msgstr "incorrecta."
+
+msgid "incorrectas"
+msgstr "incorrectas."
+
+msgid "indice"
+msgstr "Índice"
+
+msgid "insert_book_failed"
+msgstr "La inserción del libro ha fallado."
+
+msgid "intento"
+msgstr "intento."
+
+msgid "intentos"
+msgstr "intentos."
+
+msgid "invalid_user_pass"
+msgstr "El nombre de usuario o la contraseña son incorrectos."
+
+msgid "isbn"
+msgstr "ISBN"
+
+msgid "lang"
+msgstr "es"
+
+msgid "legal"
+msgstr "Legal"
+
+msgid "legal_webapp"
+msgstr ""
+"<h2>AVISO LEGAL Y POLITICA DE PRIVACIDAD</h2><p>Esta página web es propiedad "
+"de EDICIONES VICENS VIVES, S.A. El hecho de acceder a esta página implica el "
+"conocimiento y aceptación de los siguientes términos y condiciones de uso.</"
+"p><h3>1. Titularidad de la página web.</h3><p>Los nombres de dominio www."
+"vicensvivesdigital.com y www.vicensvivesdigital.cat y los subdominios http://"
+"aula.vicensvivesdigital.com y http://aula.vicensvivesdigital.cat están "
+"registrados a favor de EDICIONES VICENS VIVES, S.A., con CIF A-08375545 y "
+"domicilio social en la avenida de Sarrià, 130, 08017 de Barcelona, "
+"debidamente inscrita en el Registro Mercantil de Barcelona, Sección 8, Hoja "
+"90485. Teléfono de contacto +34 93 252 37 00 y dirección de correo "
+"electrónico e@vicensvives.es.</p><h3>2. Propiedad intelectual de la web.</"
+"h3><p>Todos los derechos de propiedad intelectual del contenido de esta "
+"página web y su diseño gráfico son propiedad exclusiva de EDICIONES VICENS "
+"VIVES, S.A., y es a quien le corresponde el ejercicio exclusivo de los "
+"derechos de explotación de los mismos. Así, queda prohibida su reproducción, "
+"distribución, comunicación pública y modificación, total o parcial, sin "
+"previa autorización expresa de EDICIONES VICENS VIVES, S.A. De igual forma, "
+"todos los signos distintivos, marcas, nombres comerciales o signos de "
+"cualquier clase contenidos en esta página web están protegidos por ley.</"
+"p><h3>3. Contenido de la web y enlaces.</h3><p>EDICIONES VICENS VIVES, S.A. "
+"no se responsabiliza del mal uso que se realice de los contenidos de sus "
+"páginas web, siendo responsabilidad exclusiva de la persona que accede a "
+"ellos o los utiliza. Tampoco asume responsabilidad alguna por la información "
+"contenida en las páginas web de terceros a las que se pueda acceder a través "
+"de enlaces desde la página web. La presencia de estos enlaces tiene una "
+"finalidad informativa y no constituyen en ningún caso una invitación a la "
+"contratación de productos o servicios que se puedan ofrecer en la página web "
+"de destino. En el caso de que EDICIONES VICENS VIVES, S.A. tuviera "
+"conocimiento efectivo de que la actividad o la información a la que remiten "
+"estos enlaces es ilícita, constitutiva de delito o que puede lesionar bienes "
+"o derechos de terceros susceptibles de indemnización, actuará con la "
+"diligencia necesaria para suprimir o inutilizar el enlace correspondiente a "
+"la mayor brevedad posible.</p><h3>4. Uso correcto del sitio web, contenidos "
+"y servicios.</h3><p>El usuario se compromete a utilizar el sitio web, los "
+"contenidos y servicios de conformidad con la ley y los presentes términos y "
+"condiciones de uso. De la misma forma, el usuario se obliga a no utilizar "
+"los sitios web www.vicensvivesdigital.com, www.vicensvivesdigital."
+"cat, http://aula.vicensvivesdigital.com y http://aula.vicensvivesdigital."
+"cat, el contenido y los servicios que se ofrecen en ellos con fines o "
+"efectos ilícitos, contrarios al contenido de estas condiciones generales, "
+"lesivas de los derechos o intereses de terceros, o que de cualquier forma "
+"puedan dañar, inutilizar, sobrecargar o deteriorar el sitio web, su "
+"contenido los servicios o impedir la normal utilización o disfrute del sitio "
+"web por otros usuarios.</p><p>El usuario deberá abstenerse de obtener "
+"informaciones, mensajes, gráficos, dibujos, archivos de sonido y/o imagen, "
+"fotografías, software y, en general, cualquier clase de material accesible a "
+"través del sitio web o de los servicios, y emplea para ello medios distintos "
+"de los que se hayan puesto a su disposición, o en general, de los que se "
+"empleen habitualmente en Internet.</p><p>El usuario deberá abstenerse de "
+"manipular datos identificativos de EDICIONES VICENS VIVES, S.A., así como el "
+"contenido o los servicios que se ofrecen en los sitios web www."
+"vicensvivesdigital.com, www.vicensvivesdigital.cat,  http://aula."
+"vicensvivesdigital.com y http://aula.vicensvivesdigital.cat.</p><p>El "
+"usuario deberá abstenerse de facilitar datos identificativos propios que no "
+"permitan una correcta identificación.</p><p>El usuario deberá abstenerse de "
+"manipular los dispositivos técnicos de protección de contenidos o de "
+"información y, en general, de configuración de los espacios web www."
+"vicensvivesdigital.com, www.vicensvivesdigital.cat,  http://aula."
+"vicensvivesdigital.com y http://aula.vicensvivesdigital.cat.</p><p>El "
+"usuario deberá abstenerse de incorporar virus u otros elementos físicos o "
+"electrónicos que puedan dañar o impedir el normal funcionamiento de la red, "
+"del sistema o de equipos informáticos (hardware y software) de EDICIONES "
+"VICENS VIVES, S.A., o de terceros o que puedan dañar los documentos "
+"electrónicos y archivos almacenados en dichos equipos informáticos.</"
+"p><h3>5. Actualización y modificación de la página web.</h3><p>EDICIONES "
+"VICENS VIVES, S.A. se reserva el derecho de actualizar, modificar o eliminar "
+"la información contenida en su página web y su configuración o presentación, "
+"en cualquier momento, sin previo aviso y sin asumir ningún tipo de "
+"responsabilidad por hacerlo.</p><h3>6. Indicaciones sobre aspectos técnicos."
+"</h3><p>EDICIONES VICENS VIVES, S.A. no asume responsabilidad alguna "
+"derivada de problemas técnicos o fallos en los equipos informáticos que se "
+"produzcan durante la conexión a Internet, o que puedan ser originados por "
+"terceras personas a través de intromisiones ilegítimas fuera de su control.</"
+"p><p>Desde EDICIONES VICENS VIVES, S.A. no se garantiza la ausencia de virus "
+"y otros elementos que puedan causar daños en los sistemas informáticos, los "
+"documentos electrónicos o los ficheros de usuario de esta página web o de "
+"páginas web de terceros, y no se responsabiliza de los daños y perjuicios "
+"que se puedan llegar a producir por estos motivos. De igual forma, no se "
+"responsabiliza ante posibles daños y perjuicios que puedan afectar al "
+"usuario como consecuencia de errores, defectos u omisiones en la información "
+"que facilita cuando procede de terceras fuentes.</p><h3>7. Tratamiento de "
+"datos del usuario.</h3><p>Cuando el usuario facilita sus datos de carácter "
+"personal utilizando nuestro e-mail de contacto, está autorizando "
+"expresamente a EDICIONES VICENS VIVES, S.A. al tratamiento automatizado de "
+"sus datos personales para poder atender sus peticiones de servicios. "
+"EDICIONES VICENS VIVES, S.A. incluirá los datos facilitados por el usuario "
+"en un fichero de su titularidad que contará con todas las medidas de "
+"seguridad necesarias y exigidas por la normativa vigente en materia de "
+"protección de datos.</p><p>EDICIONES VICENS VIVES, S.A. no cederá o "
+"comunicará a terceros los datos recabados sin previo consentimiento expreso "
+"del usuario, excepto en el caso que la comunicación sea necesaria para "
+"prestarle el servicio que el usuario nos haya solicitado.</p><p>El usuario "
+"podrá ejercitar sus derechos de acceso, rectificación, cancelación y "
+"oposición, dirigiéndose por escrito a EDICIONES VICENS VIVES, S.A., "
+"responsable del fichero, ubicado en la avenida de Sarrià, 130, 08017 de "
+"Barcelona o por correo electrónico a e@vicensvives.es.</p><p>Esta página web "
+"puede utilizar cookies. El usuario tiene la posibilidad de impedir la "
+"generación de cookies marcando la correspondiente opción de menú en su "
+"programa de navegación aunque si opta por desactivar el uso de las cookies "
+"es posible que se vea afectado el funcionamiento de esta página web.</"
+"p><h3>8. Legislación y jurisdicción aplicable.</h3><p>Con carácter general, "
+"las relaciones con los usuarios, derivadas de la prestación de servicios "
+"contenidos en esta página web, están sometidos a la legislación y "
+"jurisdicción española. Los usuarios de esta página web son conscientes de "
+"todo lo que se ha expuesto y lo aceptan voluntariamente.</p>"
+
+msgid "libros"
+msgstr "libros"
+
+msgid "link_remove_alert"
+msgstr "¿Quieres borrar este enlace?"
+
+msgid "logout"
+msgstr "Salir"
+
+msgid "manualmente"
+msgstr "manualmente"
+
+msgid "mas_enlaces"
+msgstr "Enlaces adicionales"
+
+msgid "min_width_animation"
+msgstr "Esta animación necesita al menos"
+
+msgid "mis_libros"
+msgstr "Mis libros"
+
+msgid "name"
+msgstr "Nombre"
+
+msgid "nav_info"
+msgstr ""
+"Haz clic sobre el logotipo del navegador para descargarlo (necesita conexión "
+"a Internet)"
+
+msgid "nav_info_down"
+msgstr ""
+"Si no tienes conexión a Internet puedes descargarte Firefox para Windows "
+"haciendo clic en el botón"
+
+msgid "nav_info_h2"
+msgstr "Si quieres instalar o actualizar el navegador"
+
+msgid "new"
+msgstr "Nuevo"
+
+msgid "new_register"
+msgstr "Nuevo registro"
+
+msgid "no_connect_server"
+msgstr "No hay conexión con el servidor"
+
+msgid "no_disponible"
+msgstr "Temporalmente no disponible"
+
+msgid "note_remove_alert"
+msgstr "¿Quieres borrar la nota?"
+
+msgid "notes"
+msgstr "Notas"
+
+msgid "ok"
+msgstr "ok"
+
+msgid "password"
+msgstr "Contraseña"
+
+msgid "practica"
+msgstr "Practica"
+
+msgid "primera_edicion"
+msgstr "Primera edición"
+
+msgid "privacidad"
+msgstr "Aviso legal y política de privacidad"
+
+msgid "problem_connect_server"
+msgstr "Hay problemas para conectar con el servidor"
+
+msgid "puede_ralentizar_txt"
+msgstr "Puede ralentizar la aplicación dependiendo de la velocidad de la red"
+
+msgid "refresh"
+msgstr "Actualizar"
+
+msgid "req_min"
+msgstr ""
+"Requisitos mínimos necesarios (explorador y versión mínima) para la "
+"instalación y el correcto funcionamiento del libro."
+
+msgid "resp_incorrecta"
+msgstr "respuesta incorrecta"
+
+msgid "resp_incorrectas"
+msgstr "respuestas incorrectas"
+
+msgid "saving_data"
+msgstr "Guardando datos"
+
+msgid "searching"
+msgstr "Buscando"
+
+msgid "select"
+msgstr "Seleccionar"
+
+msgid "select_data_book"
+msgstr "Seleccionar el archivo .7bz del libro"
+
+msgid "select_resp"
+msgstr "Selecciona alguna respuesta."
+
+msgid "session_expired"
+msgstr "Tu sesión a caducado."
+
+msgid "show"
+msgstr "show"
+
+msgid "son_correctas"
+msgstr "Las respuestas son correctas"
+
+msgid "start_mcv"
+msgstr "Seleccionar una respuesta por pregunta"
+
+msgid "success_copy"
+msgstr "Copia finalizada correctamente"
+
+msgid "summary"
+msgstr "Resumen"
+
+msgid "supported_browsers"
+msgstr "Navegadores compatibles"
+
+msgid "tbl_contenidos"
+msgstr "Tabla de contenidos"
+
+msgid "tichinglang"
+msgstr "es"
+
+msgid "tichingsearch"
+msgstr "Búsqueda de recursos educativos"
+
+msgid "title"
+msgstr "Titulo"
+
+msgid "toggle"
+msgstr "toggle"
+
+msgid "type"
+msgstr "Tipo"
+
+msgid "uncorrect_file"
+msgstr "Archivo .7bz incorrecto (Por favor, elige el archivo correcto)."
+
+msgid "upd_resources"
+msgstr "Actualizar recursos"
+
+msgid "update"
+msgstr "Actualizar"
+
+msgid "url"
+msgstr "Ruta"
+
+msgid "url_tiching"
+msgstr "Ruta de Tiching"
+
+msgid "username"
+msgstr "Usuario"
+
+msgid "valid_license"
+msgstr "Licencia válida hasta: "
+
+msgid "validate"
+msgstr "Validar"
+
+msgid "verificar"
+msgstr "Verificar"
+
+msgid "version"
+msgstr "Versión"
+
+msgid "version_pdf"
+msgstr "Versión (PDF)"
+
+msgid "wait_download_book"
+msgstr "Espera…"
+
+msgid "wait_while"
+msgstr "Por favor, espera"
+
+msgid "warning_timer"
+msgstr "¡Tu licencia de usuario ha caducado!"
+
+msgid "warning_timer_bis"
+msgstr "Si quieres renovarla, ponte en contacto con nuestro delegado de zona"
+
+msgid "warnings"
+msgstr "Alertas"
+
+msgid "welcome"
+msgstr "Bienvenida"
+
+msgid "wrong_db"
+msgstr "Base de datos incorrecta"
+
+msgid "wrong_db_text"
+msgstr ""
+"Esta base de datos no ha sido generada con este ordenador. La base de datos "
+"se restaurará"
+
+msgid "wrong_grades_value"
+msgstr "Solo se admiten valores del 0 al 10."
+
+msgid "y"
+msgstr "y"

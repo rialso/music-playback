@@ -1,0 +1,20 @@
+{
+  "name": "farm-player",
+  "version": "0.0.1",
+  "description": "farm-player",
+  "dependencies": {
+    "farm-ajax": "^0.0.3",
+    "farm-base": "^0.1.2",
+    "farm-browser": "^0.0.1",
+    "farm-forms": "^0.0.7",
+    "farm-icons": "^0.1.0",
+    "farm-modal": "^0.0.5",
+    "farm-paella": "^0.0.14",
+    "farm-router": "^0.0.4",
+    "farm-section": "^0.0.5",
+    "farm-dropdown": "^0.0.2",
+    "i18next": "^2.5.1",
+    "mustache": "^2.2.1",
+    "requirejs": "^2.3.1"
+  }
+}

@@ -1,0 +1,53 @@
+{
+    "_id": "3vtu0",
+    "compound": false,
+    "name": "library",
+    "box": [
+        {
+            "data": "",
+            "name": "library",
+            "type": "html",
+            "compiled": "",
+            "preprocessor": "none",
+            "order": 0,
+            "_id": "4mof9"
+        },
+        {
+            "data": "",
+            "name": "library",
+            "type": "css",
+            "compiled": "",
+            "preprocessor": "Sass",
+            "order": 1,
+            "_id": "jz2dk"
+        },
+        {
+            "data": "",
+            "name": "library",
+            "type": "js",
+            "compiled": "",
+            "preprocessor": "none",
+            "order": 2,
+            "_id": "j1zpo"
+        },
+        {
+            "data": "",
+            "name": "library",
+            "type": "tpl",
+            "compiled": "",
+            "preprocessor": "none",
+            "_id": "psmw1",
+            "order": 3
+        }
+    ],
+    "box_add": [
+        {
+            "id": "1b38w",
+            "value": [
+                "3aksr"
+            ]
+        }
+    ],
+    "global": false,
+    "share": false
+}

@@ -1,0 +1,170 @@
+
+
+.icon svg {
+    width: 18px;
+    height: 18px;
+    fill: #aeaeae;
+}
+
+.player__wrap{
+    background: #282828;
+    width: 100%;
+    -z-index: 99;
+
+        background: #282828;
+    /* padding: 5px 15px; */
+    display: flex;
+
+/*    align-items: center;*/
+    height: 75px;
+
+    /*align-content: flex-start | flex-end | center | space-between | space-around | stretch;*/
+
+}
+
+.playing__art{
+      margin: 0;
+      padding: 0;
+}
+    
+.playing__art img {
+      width: 75px;
+      height: 75px;
+}
+
+.data__info{
+    width: 100%;
+}
+
+.track__actions{
+
+    display: flex;
+}
+
+.track__actions > div{
+
+    width: 33%;
+}
+
+
+  
+.current-track__info{    
+    -webkit-flex: initial;
+            flex: initial;
+            width: 200px;
+            /*height: 60px;*/
+  }
+
+
+
+
+.current-track__actions{
+/*  -webkit-flex: none;
+          flex: none;*/
+    width: 120px;
+    margin-top: 5px;
+
+    display: -webkit-flex;
+    display: flex;
+}
+/*.current-track__progress{
+/--*  -webkit-flex: 1;
+          flex: 1;*--/
+
+      display: -webkit-flex;
+      display: flex;
+
+      
+      position: relative;
+      font-size: 11px;
+      color: #aaaaaa;
+
+      margin-top: 6px;
+}*/
+.current-track__options{
+/*  -webkit-flex: none;
+          flex: none;*/
+
+    width: 220px;
+
+    position: relative;
+    margin-top: 5px;
+
+    display: -webkit-flex;
+    display: flex;
+
+}
+  
+
+
+
+.btn__prev,
+.btn__play,
+.btn__next {
+    width: 40px;
+    text-align: center;
+} 
+
+.btn__volume,
+.btn__suffle,
+.btn__repeat {
+    width: 40px;
+} 
+
+  
+.player-info{
+    width: 300px;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+}
+.player-info h3{
+  	font-size: 16px;
+}
+.player-info p{
+  	font-size: 12px;
+  	color:#aeaeae;
+}
+
+.timebox{
+  width: 80px;
+  text-align: center;
+  margin-top: -5px;
+}
+
+/*.timebox{
+    position: absolute;
+    top: 0;
+    right: 0px;
+}*/
+
+.volumebox{
+    margin-left: 15px;
+
+
+}
+
+/*
+input[type=range][orient=vertical]{
+/---*    writing-mode: bt-lr; /-* IE *-/
+    -webkit-appearance: slider-vertical; /-* WebKit *-/
+    width: 8px;
+    height: 175px;
+    padding: 0 5px;*---/
+
+    position: absolute;
+    top: -96px;
+    left: -45px;
+    transform: rotate(270deg);
+
+    display: none;
+}
+*/
+
+
+/*@media (max-width: 768px) {
+  
+  .current-track__info {
+    border-top: 1px solid rgb(24, 24, 24);
+  }
+}*/

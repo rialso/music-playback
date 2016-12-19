@@ -1,0 +1,60 @@
+{
+    "_id": "71mv9",
+    "global": false,
+    "compound": false,
+    "share": false,
+    "name": "player-old",
+    "box": [
+        {
+            "data": "",
+            "name": "player",
+            "type": "html",
+            "compiled": "",
+            "preprocessor": "none",
+            "order": 0,
+            "_id": "1kua3"
+        },
+        {
+            "data": "",
+            "name": "player",
+            "type": "css",
+            "compiled": "",
+            "preprocessor": "none",
+            "order": 1,
+            "_id": "wh4xa"
+        },
+        {
+            "data": "",
+            "name": "player",
+            "type": "js",
+            "compiled": "",
+            "preprocessor": "none",
+            "order": 2,
+            "_id": "f5eg3"
+        },
+        {
+            "data": "",
+            "name": "player",
+            "type": "tpl",
+            "compiled": "",
+            "preprocessor": "none",
+            "_id": "okkqs",
+            "order": 3
+        }
+    ],
+    "box_add": [
+        {
+            "id": "xp77p",
+            "value": [
+                "71mjk"
+            ]
+        },
+        {
+            "id": "uas0b",
+            "value": [
+                "6cq3z",
+                "hdndl"
+            ]
+        }
+    ]
+}

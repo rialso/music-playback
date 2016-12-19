@@ -1,0 +1,44 @@
+{
+    "_id": "c8ntl",
+    "global": false,
+    "compound": false,
+    "share": false,
+    "name": "icons",
+    "box": [
+        {
+            "data": "",
+            "name": "html",
+            "type": "html",
+            "compiled": "",
+            "preprocessor": "none",
+            "order": 0,
+            "_id": "93vrf"
+        },
+        {
+            "data": "",
+            "name": "css",
+            "type": "css",
+            "compiled": "",
+            "preprocessor": "none",
+            "order": 1,
+            "_id": "kma9i"
+        },
+        {
+            "data": "",
+            "name": "js",
+            "type": "js",
+            "compiled": "",
+            "preprocessor": "none",
+            "order": 2,
+            "_id": "vquh5"
+        }
+    ],
+    "box_add": [
+        {
+            "id": "mc6e4",
+            "value": [
+                "01n99"
+            ]
+        }
+    ]
+}

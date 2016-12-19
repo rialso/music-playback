@@ -1,0 +1,2 @@
+var tpl_astists_content = "\n\n<div class=\"album\">\n  <div class=\"art\" style=\"width: 183px; height: 183px;\"></div>\n  <div class=\"info\">\n    <h1>Born In The Desert</h1>\n    <p>Robyn Cage</p>\n  </div>\n</div>";
+var tpl_folder="/Users/rialso/Sites/private/music-playback-69/web/src/templates/";

@@ -1,0 +1,46 @@
+{
+    "_id": "xp77p",
+    "global": false,
+    "compound": false,
+    "share": false,
+    "name": "JSONs",
+    "box": [
+        {
+            "data": "",
+            "name": "artist",
+            "type": "json",
+            "compiled": "",
+            "preprocessor": "none",
+            "_id": "l5pkh",
+            "order": 3
+        },
+        {
+            "data": "",
+            "name": "track",
+            "type": "json",
+            "compiled": "",
+            "preprocessor": "none",
+            "_id": "71mjk",
+            "order": 4
+        },
+        {
+            "data": "",
+            "name": "artists",
+            "type": "json",
+            "compiled": "",
+            "preprocessor": "none",
+            "_id": "h68dm",
+            "order": 5
+        },
+        {
+            "data": "",
+            "name": "albums",
+            "type": "json",
+            "compiled": "",
+            "preprocessor": "none",
+            "_id": "z5ojj",
+            "order": 6
+        }
+    ],
+    "box_add": []
+}

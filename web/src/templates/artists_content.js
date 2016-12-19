@@ -1,0 +1,2 @@
+var tpl_artists_content = "\n{{#data}}\n<a class=\"artist-album\" href=\"/artist/{{artist}}\">\n  <div class=\"artist-art\"></div>\n  <div class=\"artist-info\">\n    <h1>{{artist}}</h1>\n  </div>\n</a>\n{{/data}}";
+var tpl_folder="/Users/rialso/Sites/private/music-playback-69/web/src/templates/";

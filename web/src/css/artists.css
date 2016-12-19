@@ -1,0 +1,32 @@
+/*
+.artists-page{
+    background-color: #fff;
+}
+
+.artists-sub-page {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    height: calc(100% - 60px);
+    width: 100%;
+    overflow-y:auto;
+    text-align: center;
+
+/*    border: 1px solid red;*--/
+}*/
+
+.artist-album{
+	float: left;
+	text-align: center;
+	padding-right: 20px;
+	width: 20%
+}
+.artist-album .artist-art{
+    background: #444 url(../images/albums/art/robyncage.jpg) center center;
+    background-size: cover;
+}
+
+.artist-art{
+	width: 183px; 
+	height: 183px;
+}

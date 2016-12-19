@@ -1,0 +1,1159 @@
+{
+      "title": "Lee Fields & The Expressions",
+      "total_albums": 3,
+      "albums": [
+        {
+          "title": "Emma Jean",
+          "total_tracks": 11,
+          "year": "",
+          "disc": [
+            {
+              "tracks": [
+                {
+                  "title": "Just Can't Win",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "Emma Jean",
+                  "track": {
+                    "no": 1,
+                    "of": 11
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul / RnB",
+                  "publisher": "Truth & Soul Records",
+                  "date": "2014",
+                  "synched": false,
+                  "duration": {
+                    "raw": "00:04:03.64",
+                    "seconds": 243
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "320",
+                    "sample_rate": 44100,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "",
+                  "lyrics": "",
+                  "cover": "covers/Lee Fields & The Expressions - Emma Jean.jpg",
+                  "id": "GLGGlKnJCaVbgEVk"
+                },
+                {
+                  "title": "Magnolia",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "Emma Jean",
+                  "track": {
+                    "no": 2,
+                    "of": 11
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul / RnB",
+                  "publisher": "Truth & Soul Records",
+                  "date": "2014",
+                  "synched": false,
+                  "duration": {
+                    "raw": "00:03:20.02",
+                    "seconds": 200
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "320",
+                    "sample_rate": 44100,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "",
+                  "lyrics": "",
+                  "cover": "covers/Lee Fields & The Expressions - Emma Jean.jpg",
+                  "id": "knHmtwlug0NcKOPQ"
+                },
+                {
+                  "title": "Paralyzed",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "Emma Jean",
+                  "track": {
+                    "no": 3,
+                    "of": 11
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul / RnB",
+                  "publisher": "Truth & Soul Records",
+                  "date": "2014",
+                  "synched": false,
+                  "duration": {
+                    "raw": "00:02:57.24",
+                    "seconds": 177
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "320",
+                    "sample_rate": 44100,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "",
+                  "lyrics": "",
+                  "cover": "covers/Lee Fields & The Expressions - Emma Jean.jpg",
+                  "id": "eY4WqZx649nNVA5C"
+                },
+                {
+                  "title": "Standing by Your Side",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "Emma Jean",
+                  "track": {
+                    "no": 4,
+                    "of": 11
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul / RnB",
+                  "publisher": "Truth & Soul Records",
+                  "date": "2014",
+                  "synched": false,
+                  "duration": {
+                    "raw": "00:03:47.71",
+                    "seconds": 227
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "320",
+                    "sample_rate": 44100,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "",
+                  "lyrics": "",
+                  "cover": "covers/Lee Fields & The Expressions - Emma Jean.jpg",
+                  "id": "x8ODwXJpxvocy4uR"
+                },
+                {
+                  "title": "Eye to Eye",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "Emma Jean",
+                  "track": {
+                    "no": 5,
+                    "of": 11
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul / RnB",
+                  "publisher": "Truth & Soul Records",
+                  "date": "2014",
+                  "synched": false,
+                  "duration": {
+                    "raw": "00:04:14.64",
+                    "seconds": 254
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "320",
+                    "sample_rate": 44100,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "",
+                  "lyrics": "",
+                  "cover": "covers/Lee Fields & The Expressions - Emma Jean.jpg",
+                  "id": "DlOF8iWzlFCMNP7O"
+                },
+                {
+                  "title": "In the Woods",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "Emma Jean",
+                  "track": {
+                    "no": 6,
+                    "of": 11
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul / RnB",
+                  "publisher": "Truth & Soul Records",
+                  "date": "2014",
+                  "synched": false,
+                  "duration": {
+                    "raw": "00:03:29.82",
+                    "seconds": 209
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "320",
+                    "sample_rate": 44100,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "",
+                  "lyrics": "",
+                  "cover": "covers/Lee Fields & The Expressions - Emma Jean.jpg",
+                  "id": "ZnxyVNoIxsCBgeF2"
+                },
+                {
+                  "title": "All I Need",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "Emma Jean",
+                  "track": {
+                    "no": 7,
+                    "of": 11
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul / RnB",
+                  "publisher": "Truth & Soul Records",
+                  "date": "2014",
+                  "synched": false,
+                  "duration": {
+                    "raw": "00:03:34.10",
+                    "seconds": 214
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "320",
+                    "sample_rate": 44100,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "",
+                  "lyrics": "",
+                  "cover": "covers/Lee Fields & The Expressions - Emma Jean.jpg",
+                  "id": "p9G767uj1D7xiPoc"
+                },
+                {
+                  "title": "Still Gets Me Down",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "Emma Jean",
+                  "track": {
+                    "no": 8,
+                    "of": 11
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul / RnB",
+                  "publisher": "Truth & Soul Records",
+                  "date": "2014",
+                  "synched": false,
+                  "duration": {
+                    "raw": "00:04:13.39",
+                    "seconds": 253
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "320",
+                    "sample_rate": 44100,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "",
+                  "lyrics": "",
+                  "cover": "covers/Lee Fields & The Expressions - Emma Jean.jpg",
+                  "id": "DcVP9YN9YqQF9RGL"
+                },
+                {
+                  "title": "Talk to Somebody",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "Emma Jean",
+                  "track": {
+                    "no": 9,
+                    "of": 11
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul / RnB",
+                  "publisher": "Truth & Soul Records",
+                  "date": "2014",
+                  "synched": false,
+                  "duration": {
+                    "raw": "00:04:04.27",
+                    "seconds": 244
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "320",
+                    "sample_rate": 44100,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "",
+                  "lyrics": "",
+                  "cover": "covers/Lee Fields & The Expressions - Emma Jean.jpg",
+                  "id": "2FneGB4uyMcbY15i"
+                },
+                {
+                  "title": "Stone Angel",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "Emma Jean",
+                  "track": {
+                    "no": 10,
+                    "of": 11
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul / RnB",
+                  "publisher": "Truth & Soul Records",
+                  "date": "2014",
+                  "synched": false,
+                  "duration": {
+                    "raw": "00:05:08.79",
+                    "seconds": 308
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "320",
+                    "sample_rate": 44100,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "",
+                  "lyrics": "",
+                  "cover": "covers/Lee Fields & The Expressions - Emma Jean.jpg",
+                  "id": "6oWwNdx9IDYoySzU"
+                },
+                {
+                  "title": "Don't Leave Me This Way",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "Emma Jean",
+                  "track": {
+                    "no": 11,
+                    "of": 11
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul / RnB",
+                  "publisher": "Truth & Soul Records",
+                  "date": "2014",
+                  "synched": false,
+                  "duration": {
+                    "raw": "00:04:32.48",
+                    "seconds": 272
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "320",
+                    "sample_rate": 44100,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "",
+                  "lyrics": "",
+                  "cover": "covers/Lee Fields & The Expressions - Emma Jean.jpg",
+                  "id": "XTJQrHkdLirz99fm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "My World",
+          "total_tracks": 11,
+          "year": "",
+          "disc": [
+            {
+              "tracks": [
+                {
+                  "title": "Do You Love Me (Like You Say You Do)",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "My World",
+                  "track": {
+                    "no": 1,
+                    "of": 11
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul",
+                  "publisher": "",
+                  "date": "2009",
+                  "synched": true,
+                  "duration": {
+                    "raw": "00:03:25.20",
+                    "seconds": 205
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "248",
+                    "sample_rate": 48000,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "",
+                  "lyrics": "",
+                  "cover": "",
+                  "id": "gS1EkMmcmdDGz0YL"
+                },
+                {
+                  "title": "Love Comes And Goes",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "My World",
+                  "track": {
+                    "no": 2,
+                    "of": 11
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul",
+                  "publisher": "",
+                  "date": "2009",
+                  "synched": true,
+                  "duration": {
+                    "raw": "00:03:11.45",
+                    "seconds": 191
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "242",
+                    "sample_rate": 48000,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "",
+                  "lyrics": "",
+                  "cover": "",
+                  "id": "94j8VTSz4o8sXi7w"
+                },
+                {
+                  "title": "Honey Dove",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "My World",
+                  "track": {
+                    "no": 3,
+                    "of": 11
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul",
+                  "publisher": "",
+                  "date": "2009",
+                  "synched": true,
+                  "duration": {
+                    "raw": "00:04:06.72",
+                    "seconds": 246
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "240",
+                    "sample_rate": 48000,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "",
+                  "lyrics": "",
+                  "cover": "",
+                  "id": "3LDtXCSio9x20V9S"
+                },
+                {
+                  "title": "Money I$ King",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "My World",
+                  "track": {
+                    "no": 4,
+                    "of": 11
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul",
+                  "publisher": "",
+                  "date": "2009",
+                  "synched": true,
+                  "duration": {
+                    "raw": "00:03:18.77",
+                    "seconds": 198
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "258",
+                    "sample_rate": 48000,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "",
+                  "lyrics": "",
+                  "cover": "",
+                  "id": "nDNix3tObpmKdx3f"
+                },
+                {
+                  "title": "My World Is Empty Without You",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "My World",
+                  "track": {
+                    "no": 5,
+                    "of": 11
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul",
+                  "publisher": "",
+                  "date": "2009",
+                  "synched": true,
+                  "duration": {
+                    "raw": "00:04:01.58",
+                    "seconds": 241
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "244",
+                    "sample_rate": 48000,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "",
+                  "lyrics": "",
+                  "cover": "",
+                  "id": "tKpg5aLJfZKnhiNs"
+                },
+                {
+                  "title": "Expressions Theme",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "My World",
+                  "track": {
+                    "no": 6,
+                    "of": 11
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul",
+                  "publisher": "",
+                  "date": "2009",
+                  "synched": true,
+                  "duration": {
+                    "raw": "00:02:51.19",
+                    "seconds": 171
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "242",
+                    "sample_rate": 48000,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "",
+                  "lyrics": "",
+                  "cover": "",
+                  "id": "Oa0sEYu5uweJcemi"
+                },
+                {
+                  "title": "My World",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "My World",
+                  "track": {
+                    "no": 7,
+                    "of": 11
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul",
+                  "publisher": "",
+                  "date": "2009",
+                  "synched": true,
+                  "duration": {
+                    "raw": "00:03:27.36",
+                    "seconds": 207
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "238",
+                    "sample_rate": 48000,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "",
+                  "lyrics": "",
+                  "cover": "",
+                  "id": "pNtq1FPPxGcqT2j2"
+                },
+                {
+                  "title": "Ladies",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "My World",
+                  "track": {
+                    "no": 8,
+                    "of": 11
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul",
+                  "publisher": "",
+                  "date": "2009",
+                  "synched": true,
+                  "duration": {
+                    "raw": "00:04:17.54",
+                    "seconds": 257
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "250",
+                    "sample_rate": 48000,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "",
+                  "lyrics": "",
+                  "cover": "",
+                  "id": "kHvu9ml1jKZBD0bm"
+                },
+                {
+                  "title": "These Moments",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "My World",
+                  "track": {
+                    "no": 9,
+                    "of": 11
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul",
+                  "publisher": "",
+                  "date": "2009",
+                  "synched": true,
+                  "duration": {
+                    "raw": "00:03:08.23",
+                    "seconds": 188
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "244",
+                    "sample_rate": 48000,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "",
+                  "lyrics": "",
+                  "cover": "",
+                  "id": "qtZ33hUftsPmiOqI"
+                },
+                {
+                  "title": "The Only One Loving You",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "My World",
+                  "track": {
+                    "no": 10,
+                    "of": 11
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul",
+                  "publisher": "",
+                  "date": "2009",
+                  "synched": true,
+                  "duration": {
+                    "raw": "00:04:09.65",
+                    "seconds": 249
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "237",
+                    "sample_rate": 48000,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "",
+                  "lyrics": "",
+                  "cover": "",
+                  "id": "FndVrOLzanuO8znG"
+                },
+                {
+                  "title": "Last Ride",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "My World",
+                  "track": {
+                    "no": 11,
+                    "of": 11
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul",
+                  "publisher": "",
+                  "date": "2009",
+                  "synched": true,
+                  "duration": {
+                    "raw": "00:03:40.51",
+                    "seconds": 220
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "244",
+                    "sample_rate": 48000,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "",
+                  "lyrics": "",
+                  "cover": "",
+                  "id": "7LenJ9u7tTUdtDcS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Faithful Man",
+          "total_tracks": 10,
+          "year": "",
+          "disc": [
+            {
+              "tracks": [
+                {
+                  "title": "Faithful Man",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "Faithful Man",
+                  "track": {
+                    "no": 1,
+                    "of": 10
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul",
+                  "publisher": "",
+                  "date": "2012",
+                  "synched": true,
+                  "duration": {
+                    "raw": "00:04:04.88",
+                    "seconds": 244
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "320",
+                    "sample_rate": 44100,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "Lee Fields & The Expressions",
+                  "lyrics": "",
+                  "cover": "",
+                  "id": "NmSR16hg5GnCf0WN"
+                },
+                {
+                  "title": "I Still Got It",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "Faithful Man",
+                  "track": {
+                    "no": 2,
+                    "of": 10
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul",
+                  "publisher": "",
+                  "date": "2012",
+                  "synched": true,
+                  "duration": {
+                    "raw": "00:03:36.32",
+                    "seconds": 216
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "320",
+                    "sample_rate": 44100,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "Lee Fields & The Expressions",
+                  "lyrics": "",
+                  "cover": "",
+                  "id": "0hFVvr2n9M8tir9u"
+                },
+                {
+                  "title": "You're The Right Kind Of Girl",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "Faithful Man",
+                  "track": {
+                    "no": 3,
+                    "of": 10
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul",
+                  "publisher": "",
+                  "date": "2012",
+                  "synched": true,
+                  "duration": {
+                    "raw": "00:03:59.86",
+                    "seconds": 239
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "320",
+                    "sample_rate": 44100,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "Lee Fields & The Expressions",
+                  "lyrics": "",
+                  "cover": "",
+                  "id": "kro21uKoXC0e2psu"
+                },
+                {
+                  "title": "Still Hanging On",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "Faithful Man",
+                  "track": {
+                    "no": 4,
+                    "of": 10
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul",
+                  "publisher": "",
+                  "date": "2012",
+                  "synched": true,
+                  "duration": {
+                    "raw": "00:03:27.68",
+                    "seconds": 207
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "320",
+                    "sample_rate": 44100,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "Lee Fields & The Expressions",
+                  "lyrics": "",
+                  "cover": "",
+                  "id": "UQ72LVTpHn1qLspY"
+                },
+                {
+                  "title": "Intermission",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "Faithful Man",
+                  "track": {
+                    "no": 5,
+                    "of": 10
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul",
+                  "publisher": "",
+                  "date": "2012",
+                  "synched": true,
+                  "duration": {
+                    "raw": "00:01:59.38",
+                    "seconds": 119
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "320",
+                    "sample_rate": 44100,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "Lee Fields & The Expressions",
+                  "lyrics": "",
+                  "cover": "",
+                  "id": "WefEaU5PgJfe104L"
+                },
+                {
+                  "title": "Wish You Were Here",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "Faithful Man",
+                  "track": {
+                    "no": 6,
+                    "of": 10
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul",
+                  "publisher": "",
+                  "date": "2012",
+                  "synched": true,
+                  "duration": {
+                    "raw": "00:04:11.77",
+                    "seconds": 251
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "320",
+                    "sample_rate": 44100,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "Lee Fields & The Expressions",
+                  "lyrics": "",
+                  "cover": "",
+                  "id": "gDAMQKRWDhTLhWcq"
+                },
+                {
+                  "title": "Who Do You Love",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "Faithful Man",
+                  "track": {
+                    "no": 7,
+                    "of": 10
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul",
+                  "publisher": "",
+                  "date": "2012",
+                  "synched": true,
+                  "duration": {
+                    "raw": "00:02:50.53",
+                    "seconds": 170
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "320",
+                    "sample_rate": 44100,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "Lee Fields & The Expressions",
+                  "lyrics": "",
+                  "cover": "",
+                  "id": "mqeHsNFnAvDf7mVx"
+                },
+                {
+                  "title": "Moonlight Mile",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "Faithful Man",
+                  "track": {
+                    "no": 8,
+                    "of": 10
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul",
+                  "publisher": "",
+                  "date": "2012",
+                  "synched": true,
+                  "duration": {
+                    "raw": "00:03:36.82",
+                    "seconds": 216
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "320",
+                    "sample_rate": 44100,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "Lee Fields & The Expressions",
+                  "lyrics": "",
+                  "cover": "",
+                  "id": "Qbzl8lVpdDVMNCIY"
+                },
+                {
+                  "title": "It's All Over (But The Crying)",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "Faithful Man",
+                  "track": {
+                    "no": 9,
+                    "of": 10
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul",
+                  "publisher": "",
+                  "date": "2012",
+                  "synched": true,
+                  "duration": {
+                    "raw": "00:04:09.00",
+                    "seconds": 249
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "320",
+                    "sample_rate": 44100,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "Lee Fields & The Expressions",
+                  "lyrics": "",
+                  "cover": "",
+                  "id": "e18LMdOpg9vf8ncv"
+                },
+                {
+                  "title": "Walk On Thru That Door",
+                  "artist": "Lee Fields & The Expressions",
+                  "album": "Faithful Man",
+                  "track": {
+                    "no": 10,
+                    "of": 10
+                  },
+                  "disc": {
+                    "no": 1,
+                    "of": 1
+                  },
+                  "genre": "Soul",
+                  "publisher": "",
+                  "date": "2012",
+                  "synched": true,
+                  "duration": {
+                    "raw": "00:05:38.52",
+                    "seconds": 338
+                  },
+                  "audio": {
+                    "codec": "mp3",
+                    "bitrate": "320",
+                    "sample_rate": 44100,
+                    "stream": 0,
+                    "channels": {
+                      "raw": "stereo",
+                      "value": 2
+                    }
+                  },
+                  "album_artist": "Lee Fields & The Expressions",
+                  "lyrics": "",
+                  "cover": "",
+                  "id": "6aptqg0BZEoliTwb"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }

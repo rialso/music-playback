@@ -1,0 +1,28 @@
+{
+    "_id": "1",
+    "global": true,
+    "compound": false,
+    "share": false,
+    "name": "_variables",
+    "box": [
+        {
+            "data": "",
+            "name": "variables",
+            "type": "css",
+            "compiled": "",
+            "preprocessor": "Sass",
+            "order": 1,
+            "_id": "1"
+        },
+        {
+            "data": "",
+            "name": "icons",
+            "type": "js",
+            "compiled": "",
+            "preprocessor": "none",
+            "order": 2,
+            "_id": "1"
+        }
+    ],
+    "box_add": []
+}

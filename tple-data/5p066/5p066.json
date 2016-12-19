@@ -1,0 +1,59 @@
+{
+    "_id": "5p066",
+    "global": false,
+    "compound": false,
+    "share": false,
+    "name": "albums_cover",
+    "box": [
+        {
+            "data": "",
+            "name": "albums_cover",
+            "type": "html",
+            "compiled": "",
+            "preprocessor": "none",
+            "order": 0,
+            "_id": "u8fn7"
+        },
+        {
+            "data": "",
+            "name": "albums_cover",
+            "type": "css",
+            "compiled": "",
+            "preprocessor": "Sass",
+            "order": 1,
+            "_id": "48uac"
+        },
+        {
+            "data": "",
+            "name": "albums_cover",
+            "type": "js",
+            "compiled": "",
+            "preprocessor": "none",
+            "order": 2,
+            "_id": "sk9gy"
+        },
+        {
+            "data": "",
+            "name": "albums_cover",
+            "type": "tpl",
+            "compiled": "",
+            "preprocessor": "none",
+            "order": 3,
+            "_id": "zgw4e"
+        }
+    ],
+    "box_add": [
+        {
+            "id": "xp77p",
+            "value": [
+                "z5ojj"
+            ]
+        },
+        {
+            "id": "1b38w",
+            "value": [
+                "3aksr"
+            ]
+        }
+    ]
+}

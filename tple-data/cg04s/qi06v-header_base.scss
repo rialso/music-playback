@@ -1,0 +1,14 @@
+@import '<!--{#1}-->1-variables';
+
+.header__wrap {  
+   	list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+	color:#fff;
+
+	background-color: $black;
+  	border-bottom: 1px solid $grey;
+  
+    height:60px;
+}
