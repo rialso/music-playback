@@ -9,7 +9,11 @@
 
 //var musicpath = '/Volumes/Untitled/______nevera';
 
-var musicpath = '/Users/rialso/Music/______nevera';
+//var musicpath = '/Users/rialso/Music/______nevera';
+
+var config = require('../../config');
+var musicpath = config.musicpath;
+
 
 //console.log( '---------', musicpath )
 
