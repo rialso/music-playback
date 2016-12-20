@@ -73,6 +73,7 @@ exports.init = function(path) {
                             if(m){
                                 _recursive(0);
                             }else{
+                                console.log(data)
                                 _recursive(array);
                             }
                         });
@@ -144,6 +145,7 @@ var insertFiles = function(files) {
         var i;
         var all = files.length;
         var count = 0;
+        var arr = [];
 
         //console.log(':::::: load-data ERROR: ', i+' | \n'+files);
 
@@ -156,13 +158,19 @@ var insertFiles = function(files) {
 
                     //console.log( count+' | '+i+' | INSERT | '+ dobj.location);
 
-                    console.log('-----count-----', count +' - '+(all-1))
+                    //console.log('-----count-----', count +' - '+(all-1))
+
+                    var b = dobj.location.split('/');
+                    var c = b.length;
+                    var d = b[c-1];
+                    arr.push(d);
              
 
                     if(count>=(all-1)){ 
                         //console.log('@@@@@@@@@@@@ terminado processFile');
 
-                        resolve('processFile finished in '+ count +' files')
+                        //resolve('processFile finished in '+ count +' files')
+                        resolve(arr)
                     }
                     count++;
                     

@@ -72,7 +72,8 @@ exports.trackVerifyInsert = function( data ){
 				  	resolve( doc );
 				});
 			}else{
-				console.error("trackVerify Failed!", error);
+				//
+				//console.error("trackVerify Failed!", error);
 			}
 
 	    });

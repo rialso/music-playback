@@ -35,7 +35,7 @@ var ffmpegRoot  = './server/lib/handlers/ffmpeg';
 exports.startPlayback = function(req, res) {
     var id = req.params.id;
 
-    console.log('::::::::::::', id)
+    //console.log('::::::::::::', id)
 
     callTrack.trackById(id).then(function(data){
         //console.log('::::::::path: \n', path)
