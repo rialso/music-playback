@@ -6,6 +6,8 @@
 
 farm.f.c = ({
 
+        farm_css_reset      :'node_modules/farm-css-reset/source/farm-css-reset',
+
         farm_section        :'node_modules/farm-section/source/farm-section',
         animations          :'node_modules/farm-section/source/animations',
 
