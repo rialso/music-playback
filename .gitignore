@@ -2,3 +2,4 @@ node_modules
 covers
 server/lib/database/todo.db
 web/farm-opts.js
+config.js
