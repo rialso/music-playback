@@ -1,5 +1,6 @@
+.DS_Store
 node_modules
-covers
-server/lib/database/todo.db
+covers/
+server/lib/database/
 web/farm-opts.js
 config.js
