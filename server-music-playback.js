@@ -7,11 +7,14 @@ var express = require('express');
 var cors    = require('cors');
 var app 	= express();
 
+var config = require('./server/config');
+var port = config.port;
+
 // CONFIGURATION 
 // ===========================================
 
-var host 	 = "127.0.0.1";
-var port     = process.env.PORT || 3023;
+//var host 	 = "127.0.0.1";
+var port     = process.env.PORT || port;
 
 // CORS-enabled for all origins!
 app.use( cors() );

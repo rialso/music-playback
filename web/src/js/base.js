@@ -43,26 +43,26 @@ function(utils, AudioPlayer) {
 
                 utils.changeSection('home', 27)
 
-                var _home_page = document.getElementById('home-page');
+                //var _home_page = document.getElementById('home-page');
                 utils.mr({ 
                     ns:'pb', 
                     tpl:tpl_structure, 
-                    elem:_home_page
+                    elem:'#home-page'
                 });
 
-                var _header = document.getElementById('header');
-                utils.mr({ 
-                    ns:'pb', 
-                    tpl:tpl_header_base, 
-                    elem:_header
-                });
+                //var _header = document.getElementById('header');
+                // utils.mr({ 
+                //     ns:'pb', 
+                //     tpl:tpl_header_base, 
+                //     elem:'#header'
+                // });
 
 
-                var _content_one = document.getElementById('content__one');
+                //var _content_one = document.getElementById('content__one');
                 utils.mr({ 
                     ns:'pb', 
                     tpl:tpl_library, 
-                    elem:_content_one
+                    elem:'#content__one'
                 });
 
 
@@ -71,7 +71,7 @@ function(utils, AudioPlayer) {
                 utils.mr({ 
                     ns:'mlm', 
                     tpl:tpl_player, 
-                    elem:_header 
+                    elem:'#header' 
                 });
 
                 AudioPlayer.init();

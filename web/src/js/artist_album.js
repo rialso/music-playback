@@ -1,8 +1,8 @@
 
 
 
-define(['utils', 'utilsTPL', 'call', 'prep'], 
-function(utils, utilsTPL, call, prep) {
+define(['utils', 'call', 'prep'], 
+function(utils, call, prep) {
     'use strict';
 
     function init (params){
@@ -38,11 +38,11 @@ function(utils, utilsTPL, call, prep) {
 
         var albums = $data;
 
-        var elem = document.getElementById('content__main');
-        utilsTPL.mr({ 
+        //var elem = document.getElementById('content__main');
+        utils.mr({ 
             ns:'pb', 
             tpl:tpl_artist_content, 
-            elem:elem,
+            elem:'#content__main',
             data:{albums: albums}
         });
 

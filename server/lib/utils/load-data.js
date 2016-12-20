@@ -1,38 +1,27 @@
 //http://jlunaquiroga.blogspot.com.es/2014/03/creating-processes-in-nodejs.html
 
 
-
 //var musicpath = '/Users/rtb/Music/___nevera/_Jazz/Ben Webster';
 //var musicpath = '/Users/rtb/Music/___nevera/_Jazz';
 //var musicpath = '/Users/rtb/Music/___nevera';
 //var musicpath = '/Users/rtb/Music';
-
 //var musicpath = '/Volumes/Untitled/______nevera';
-
 //var musicpath = '/Users/rialso/Music/______nevera';
 
-var config = require('../../config');
-var musicpath = config.musicpath;
-
-
-//console.log( '---------', musicpath )
 
 var metadataPro     = require('../../apps/music/metadata-processor');
 var fileUtils       = require('../../lib/utils/file-utils');
 var track           = require('../../calls/tracks');
-//var isThere         = require('is-there');
-
-//var child = require('child_process');
-
-
-/*
-fileUtils.getLocalFiles(musicpath, metadata_prs.valid_filetypes, function (err, files) {
-
-    console.log('total getLocalFiles: ', files.length)
-});
-*/
+var config          = require('../../config');
+var musicpath       = config.musicpath;
 
 
+//http://ejohn.org/blog/javascript-array-remove/
+Array.prototype.remove = function(from, to) {
+    var rest = this.slice((to || from) + 1 || this.length);
+    this.length = from < 0 ? this.length + from : from; 
+    return this.push.apply(this, rest); 
+};
 
 exports.init = function(path) {
 
@@ -40,31 +29,65 @@ exports.init = function(path) {
 
     return new Promise(function(resolve, reject) {
 
-
         findTracks(path).then(function(files){
-
 
             //console.log('getFiles: ---------------------\n ', files)
 
             if(files.length>0){
 
-                insertFiles(files).then(function(data){
+                /*
+                    insertFiles(s).then(function(data){
 
-                    console.log('@@@@@@@@@@@@@ END FILES @@@@@@@@@@@@@@@')
-                    resolve('end files')
-                });
+                        console.log('@@@@@@@@@@@@@ END FILES @@@@@@@@@@@@@@@')
+                        resolve('end files')
+                    });
+                */
+
+                var s = '';
+                var m = false;
+                function _recursive(array) {
+                    console.log('--------- array length: ',array.length)
+                    if (array == 0){
+
+                        console.log('@@@@@@@@@@@@@ END FILES @@@@@@@@@@@@@@@')
+                        resolve('end files')
+
+                    }else{
+
+                        if(array.length>10){
+                            s = array.slice(0,10); 
+                            array.remove(0,9)
+                        }else{
+                            m = true
+                            s = array;
+                        }
+
+                        //console.log('------b----------------', array.length)
+                        
+                        return insertFiles(s, m).then(function(data){
+
+                            //console.log('@@@@@@@@@@@@@ END 10 FILES @@@@@@@@@@@@@@@', data)
+                            //console.log('@@@@@@@@@@@@@ END 10 FILES @@@@@@@@@@@@@@@', files.length)
+                            //resolve('end 10 files')
+
+                            if(m){
+                                _recursive(0);
+                            }else{
+                                _recursive(array);
+                            }
+                        });
+                    }
+                }
+                _recursive(files);        
             }
             else{
-
                 console.log('@@@@@@@@@@@@@ END FILES 0 @@@@@@@@@@@@@@@')
                 resolve('end files 0')
             }
-
         });
-
-
     });
 };
+
 
 var findTracks = function(path) {
 
@@ -128,22 +151,13 @@ var insertFiles = function(files) {
 
             metadataPro.processFile(files[i]).then(function(file){
 
-                //console.log( ' |  - ', files[i]);
-                //console.log( ' |  - ', file);
-                //console.log(count+' | '+i+' | ', file.artist +' - '+ file.album +' - '+ file.title);
-                //console.log(count+' | '+i+' | ', file.location);
-
-
-                //console.log(count+' | '+i+' | ', file);
-
                 //track.trackInsert(file).then(function(dobj){
                 track.trackVerifyInsert(file).then(function(dobj){
 
-                    //console.log(count+' | '+i+' | ', file);
+                    //console.log( count+' | '+i+' | INSERT | '+ dobj.location);
 
-                    //console.log(count+' | '+i+' | ', dobj.artist +' - '+ dobj.album +' - '+ dobj.title);
-
-                    console.log( count+' | '+i+' | INSERT | '+ dobj.location);
+                    console.log('-----count-----', count +' - '+(all-1))
+             
 
                     if(count>=(all-1)){ 
                         //console.log('@@@@@@@@@@@@ terminado processFile');

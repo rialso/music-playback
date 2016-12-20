@@ -1,6 +1,6 @@
 
-define(['utils', 'utilsTPL'], 
-function(utils, utilsTPL) {
+define([], 
+function() {
     'use strict';
 
 

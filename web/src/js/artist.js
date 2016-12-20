@@ -78,11 +78,11 @@ function(utils, utilsTPL, call, prep) {
 
         //console.log('----------albums ', albums)
 
-        var elem = document.getElementById('content__main');
-        utilsTPL.mr({ 
+        //var elem = document.getElementById('content__main');
+        utils.mr({ 
             ns:'pb', 
             tpl:tpl_artist_content, 
-            elem:elem,
+            elem:'#content__main',
             data:{albums: albums}
         });
 

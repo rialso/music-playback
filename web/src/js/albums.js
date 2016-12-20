@@ -21,12 +21,16 @@ function(utils, call) {
 
         var albums = obj;
 
-        var elem = document.getElementById('content__main');
+        //var elem = document.getElementById('content__main');
         utils.mr({ 
             ns:'pb', 
             tpl:tpl_albums_cover, 
-            elem:elem, 
-            data:albums 
+            elem:'#content__main', 
+            data:albums ,
+            fn: function(text){
+                var reg = new RegExp('<!--{##covers}-->', 'g');
+                return text.replace( reg, farm.r.server+'covers/');
+            }
         });
     }
 

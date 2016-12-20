@@ -35,7 +35,7 @@
         "farm-router": "^0.0.4",
         "farm-section": "^0.0.5",
         "farm-dropdown": "^0.0.2",
-        "utilsTPL": "0.0.2",
+        "utilsTPL": "0.0.4",
         "i18next": "^2.5.1",
         "mustache": "^2.3.0",
         "requirejs": "^2.3.2"

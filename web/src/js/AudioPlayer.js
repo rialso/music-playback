@@ -63,6 +63,35 @@ function() {
         mutebtn.addEventListener("click", mute);
 
         timeline.addEventListener('input',function () { progress_color( this ) },false);
+
+        window.addEventListener("keyup", playPauseKb, false);
+    }
+
+    function playPauseKb(event) {
+        var x = event.which || event.keyCode;
+        var y = audio.paused;
+        //debug
+        //console.log(x);
+        // 80 p
+        // 83 s
+
+        //p on the keyboard
+        if (x === 80 && y == 1) {
+
+            audio.play();
+
+            console.log("playing");
+
+        } else if (x === 80) { //s button keycode
+
+            audio.pause();
+
+            console.log("paused");
+
+        } else if (x === 79) {
+
+            audio.load();
+        }
     }
 
 

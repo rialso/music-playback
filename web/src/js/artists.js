@@ -21,11 +21,11 @@ function(utils, call) {
 
         var artists = obj;
 
-        var elem = document.getElementById('content__main');
+        //var elem = document.getElementById('content__main');
         utils.mr({ 
             ns:'pb', 
             tpl:tpl_artists_mini, 
-            elem:elem, 
+            elem:'#content__main', 
             data:artists 
         });
     }

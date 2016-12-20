@@ -16,7 +16,7 @@ var callTrack   = require('../../calls/tracks');
 exports.startPlayback = function(req, res) {
     var id = req.params.id;
 
-    console.log(':::::::: music-playback-basic ::::', id)
+    //console.log(':::::::: music-playback-basic ::::', id)
 
     callTrack.trackById(id).then(function(data){
         //console.log('::::::::path: \n', path)
@@ -40,7 +40,7 @@ exports.startPlayback = function(req, res) {
 
 var startTrackStreaming = function(req, res, path) {
 
-    console.log( 'path: ', path +' | '+ req.headers.range )
+    //console.log( 'path: ', path +' | '+ req.headers.range )
 
     //if(typeof request.headers.range !== 'undefined')
     if (!!req.headers.range)  {
@@ -53,7 +53,7 @@ var startTrackStreaming = function(req, res, path) {
         var start = parseInt(rangeStart, 10);
         var end   = rangeEnd ? parseInt(rangeEnd, 10) : total - 1;
 
-        console.log('::::::: total bytes ' + start + '-' + end + '/' + total)
+        //console.log('::::::: total bytes ' + start + '-' + end + '/' + total)
 
         res.writeHead(206, {
             'Accept-Ranges': 'bytes',

@@ -1,5 +1,6 @@
 
 /* Global imports */
+// https://github.com/geekjuice/musicjson
 
 'use strict';
 var isThere = require('is-there');
@@ -117,8 +118,10 @@ var getImage = function(metadata) {
             name = metadata.artist +' - '+ metadata.title;
         }
 
+        var cover = name+'.jpg';
+
         //var pathname = root+'/'+name+'.jpg';
-        var pathname = 'covers/'+name+'.jpg';
+        var pathname = 'covers/'+cover;
 
         //metadata.cover = pathname;
         //resolve(metadata)
